@@ -1,0 +1,547 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Alexandria', sans-serif;
+}
+
+@media (min-width: 320px) and (max-width: 768px){
+    
+    .bodyIniciarSesion{
+        background-color: #f5f5f5;
+    }
+
+    .eduTask{
+        color: transparent;
+        user-select: none;
+        background-image: url('../Imagenes/EduTask.png');
+        background-size: contain;
+        background-position: left;
+        background-repeat: no-repeat;
+        margin-left: 1em;
+        width: 3em;
+    }
+
+    .headerIniciarSesion{
+        background-color: #333;
+        color: #fff;
+        height: 4vh;
+        transition: height 0.3s ease-in-out;
+        position: fixed;
+        width: 100vw;
+    }
+
+    #menuIcon{
+        background-color: #333;
+        color: #fff;
+        border: none;
+        font-size: 1.5em;
+        margin-right: 1em;
+    }
+
+    .menu-hamburguesa{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .headerIniciarSesion nav {
+        display: block; 
+        opacity: 0;
+        transform: translateY(-10px);
+        transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+        overflow: hidden;
+        visibility: hidden;
+        height: 0; 
+    }
+
+    .headerIniciarSesion nav.show {
+        opacity: 1;
+        transform: translateY(0);
+        height: auto; 
+        visibility: visible;
+    }
+    
+    .headerIniciarSesion nav li{
+        list-style: none;
+        text-align: right;
+        margin-right: 2em;
+    }
+
+    .headerIniciarSesion nav a{
+        text-decoration: none;
+        color: #fff;
+        font-weight: bold;
+        font-size: 1em;
+    }
+
+    .headerIniciarSesion nav li:first-child{
+        background-image: url('../Imagenes/HomeIcon.png');
+        background-size: contain;
+        background-position: right;
+        background-repeat: no-repeat;
+        padding-right: 2em;
+    }
+
+    .headerIniciarSesion nav li:last-child{
+        background-image: url('../Imagenes/LoginIcon.png');
+        background-size: contain;
+        background-position: right;
+        background-repeat: no-repeat;
+        padding-right: 2em;
+        margin-top: 0.4em;
+    }
+
+    .col-2{
+        width: 100vw;
+    }
+
+    .title{
+        padding-top: 3em;
+        margin-left: 1em;
+        font-size: 2em;
+    }
+
+    .subtitle{
+        margin-top: 2em;
+        margin-left: 1.5em;
+        font-size: 1.5em;
+    }
+
+    .form-login{
+        margin-left: 2.2em;
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+    }
+
+    .form-login label{
+        margin: 1em;
+        margin-top: 2em;
+        font-size: 1em;
+    }
+
+    .form-login input{
+        padding: 1em;
+        border-radius: 0.5em;
+        border: none;
+        background-color: #d3d3d3;
+    }
+
+    .form-login button{
+        margin-top: 2em;
+        padding: 1em;
+        border-radius: 0.5em;
+        border: none;
+        background-color: #333;
+        color: #fff;
+        width: 50%;
+    }
+
+    .mail p{
+        margin-top: 2em;
+        margin-left: 4em;
+    }
+
+    .mail a{
+        text-decoration: none;
+        color: #333;
+        font-weight: bold;
+    }
+
+    .col-2 footer{
+        position: fixed;
+        bottom: 0;
+        background-color: #aba8a8;
+        width: 100vw;
+        height: calc(100vh - 92vh);
+    }
+
+    footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    footer p {
+        display: block;
+        color: transparent;
+        user-select: none;
+        background-image: url('../Imagenes/EduTaskFooter.png');
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    footer a {
+        text-decoration: none;
+        color: #fff;
+        font-weight: bold;
+        font-size: 0.7em;
+    }
+
+    footer ul{
+        padding: 0;
+        text-align: center;
+    }
+
+    footer li, .bodyIniciarSesion li{
+        list-style: none;
+    }
+        
+    footer div{
+        width: 50%;
+    }
+
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+
+    .bodyIniciarSesion{
+        background-color: #f5f5f5;
+    }
+
+    .eduTask{
+        color: transparent;
+        user-select: none;
+        background-image: url('../Imagenes/EduTask.png');
+        background-size: contain;
+        background-position: left;
+        background-repeat: no-repeat;
+        margin-left: 1em;
+        margin-top: 0.3em;
+        width: 3em;
+    }
+
+    .headerIniciarSesion{
+        background-color: #333;
+        color: #fff;
+        height: 4vh;
+        transition: height 0.3s ease-in-out;
+        position: fixed;
+        width: 100vw;
+    }
+
+    #menuIcon{
+        background-color: #333;
+        color: #fff;
+        border: none;
+        font-size: 1.5em;
+        margin-right: 1em;
+        margin-top: 0.3em;
+    }
+
+    .menu-hamburguesa{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .headerIniciarSesion nav {
+        display: block; 
+        opacity: 0;
+        transform: translateY(-10px);
+        transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+        overflow: hidden;
+        visibility: hidden;
+        height: 0; 
+    }
+
+    .headerIniciarSesion nav.show {
+        opacity: 1;
+        transform: translateY(0);
+        height: auto; 
+        visibility: visible;
+    }
+    
+    .headerIniciarSesion nav li{
+        list-style: none;
+        text-align: right;
+        margin-right: 2em;
+        margin-top: 0.5em;
+    }
+
+    .headerIniciarSesion nav a{
+        text-decoration: none;
+        color: #fff;
+        font-weight: bold;
+        font-size: 1em;
+    }
+
+    .headerIniciarSesion nav li:first-child{
+        background-image: url('../Imagenes/HomeIcon.png');
+        background-size: contain;
+        background-position: right;
+        background-repeat: no-repeat;
+        padding-right: 2em;
+    }
+
+    .headerIniciarSesion nav li:last-child{
+        background-image: url('../Imagenes/LoginIcon.png');
+        background-size: contain;
+        background-position: right;
+        background-repeat: no-repeat;
+        padding-right: 2em;
+        margin-top: 1em;
+    }
+
+    .col-2{
+        width: 100vw;
+    }
+
+    .title{
+        padding-top: 5em;
+        margin-left: 1em;;
+        font-size: 3em;
+    }
+
+    .subtitle{
+        margin-top: 2em;
+        margin-left: 1.5em;
+        font-size: 2.25em;
+    }
+
+    .form-login{
+        margin-left: 3.2em;
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+    }
+
+    .form-login label{
+        margin: 1em;
+        margin-top: 2em;
+        font-size: 1.5em;
+    }
+
+    .form-login input{
+        padding: 1em;
+        border-radius: 0.5em;
+        border: none;
+        background-color: #d3d3d3;
+    }
+
+    .form-login button{
+        margin-top: 3em;
+        padding: 1em;
+        border-radius: 0.5em;
+        border: none;
+        background-color: #333;
+        color: #fff;
+        width: 50%;
+    }
+
+    .mail p{
+        margin-top: 2em;
+        margin-left: 2.7em;
+        font-size: 1.2em;
+    }
+
+    .mail a{
+        text-decoration: none;
+        color: #333;
+        font-weight: bold;
+    }
+
+    .col-2 footer{
+        position: fixed;
+        bottom: 0;
+        background-color: #aba8a8;
+        width: 100vw;
+        height: calc(100vh - 92vh);
+    }
+
+    footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    footer p {
+        display: block;
+        color: transparent;
+        user-select: none;
+        background-image: url('../Imagenes/EduTaskFooter.png');
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        font-size: 1.5em;
+    }
+
+    footer a{
+        text-decoration: none;
+        color: #fff;
+        font-weight: bold;
+        font-size: 1.3em;
+    }
+
+    footer ul{
+        padding: 0;
+        text-align: center;
+    }
+
+    footer li, .bodyIniciarSesion li{
+        list-style: none;
+    }
+        
+    footer div{
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 1025px){
+    
+    .bodyIniciarSesion{
+        background-color: #f5f5f5;
+        display: flex;
+        justify-content:flex-start;
+        height: 100vh;
+        width: 100vw;
+        overflow: hidden;
+    }
+
+    .eduTask{
+        color: transparent;
+        user-select: none;
+        background-image: url('../Imagenes/EduTask.png');
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding-left: 4em;
+    }
+
+    #menuIcon{
+        display: none;
+    }
+
+    .headerIniciarSesion{
+        background-color: #333;
+        color: #fff;
+        padding-left: 1em;
+        padding-right: 1em;
+        padding-top: 4em;
+        height: 100vh;
+    }
+
+    .headerIniciarSesion nav{
+        margin-top: 4em;
+    }
+
+    .headerIniciarSesion nav li{
+        margin-top: 2em;
+    }
+
+    .headerIniciarSesion nav li:first-child{
+        background-image: url('../Imagenes/HomeIcon.png');
+        background-size: contain;
+        background-position: left;
+        background-repeat: no-repeat;
+        padding-left: 2em;
+    }
+
+    .headerIniciarSesion nav li:last-child{
+        background-image: url('../Imagenes/LoginIcon.png');
+        background-size: contain;
+        background-position: left;
+        background-repeat: no-repeat;
+        padding-left: 2em;
+    }
+
+    .col-2{
+        width: 100vw;
+    }
+
+    .title{
+        margin: 2em;
+        font-size: 2em;
+    }
+
+    .subtitle{
+        margin: 2em;
+        margin-left: 2.7em;
+        font-size: 1.5em;
+    }
+
+    .form-login{
+        margin-left: 4em;
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+    }
+
+    .form-login label{
+        margin: 1em;
+        margin-top: 2em;
+        font-size: 1em;
+    }
+
+    .form-login input{
+        padding: 1em;
+        border-radius: 0.5em;
+        border: none;
+        background-color: #d3d3d3;
+    }
+
+    .form-login button{
+        margin-top: 2em;
+        padding: 1em;
+        border-radius: 0.5em;
+        border: none;
+        background-color: #333;
+        color: #fff;
+        width: 50%;
+    }
+
+    .mail p{
+        margin-top: 2em;
+        margin-left: 4em;
+    }
+
+    .mail a{
+        text-decoration: none;
+        color: #333;
+        font-weight: bold;
+    }
+
+    .col-2 footer{
+        position: fixed;
+        bottom: 0;
+        background-color: #aba8a8;
+        width: 100vw;
+        height: calc(100vh - 92vh);
+    }
+
+    footer{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    footer p {
+        display: block;
+        color: transparent;
+        user-select: none;
+        background-image: url('../Imagenes/EduTaskFooter.png');
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    footer a , .headerIniciarSesion a{
+        text-decoration: none;
+        color: #fff;
+        font-weight: bold;
+    }
+
+    footer li, .bodyIniciarSesion li{
+        list-style: none;
+    }
+        
+    footer div{
+        width: 50%;
+    }
+    
+}
+
+
