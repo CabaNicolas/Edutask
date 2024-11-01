@@ -4,6 +4,8 @@
     font-family: 'Alexandria', sans-serif;
 }
 
+/* INDEX */
+
 @media (min-width: 320px) and (max-width: 768px){
     
     .bodyIniciarSesion{
@@ -541,7 +543,161 @@
     footer div{
         width: 50%;
     }
+   
+    /* REGISTRO */
+    
+
+    @media screen and (min-width: 1025px){
+
+    .bodyRegistro{
+        background-color: #f5f5f5;
+        display: flex;
+        justify-content:flex-start;
+        height: 100vh;
+        width: 100vw;
+    }
+
+    .eduTask{
+        color: transparent;
+        user-select: none;
+        background-image: url('../Imagenes/EduTask.png');
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding-left: 4em;
+    }
+
+    #menuIcon{
+        display: none;
+    }
+
+    .headerRegistro{
+        background-color: #333;
+        color: #fff;
+        padding-left: 1em;
+        padding-right: 1em;
+        padding-top: 4em;
+        height: 100vh;
+        position: fixed;
+        z-index: 1;
+    }
+
+    .headerRegistro a{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        font-weight: boldss;
+    }
+
+    .headerRegistro nav{
+        margin-top: 4em;
+    }
+
+    .headerRegistro nav li{
+        margin-top: 2em;
+    }
+
+    .headerRegistro nav li:first-child{
+        background-image: url('../Imagenes/HomeIcon.png');
+        background-size: contain;
+        background-position: left;
+        background-repeat: no-repeat;
+        padding-left: 2em;
+    }
+
+    .headerRegistro nav li:last-child{
+        background-image: url('../Imagenes/LoginIcon.png');
+        background-size: contain;
+        background-position: left;
+        background-repeat: no-repeat;
+        padding-left: 2em;
+    }
+
+    .col-2{
+        width: 100vw;
+    }
+
+    .title{
+        margin: 2em;
+        font-size: 2em;
+    }
+
+    .main-registro{
+        margin-left: calc(22%);
+    }
+
+    .registrarse-form{
+        margin-left: 4em;
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+    }
+
+    .label-registro{
+        margin: 1em;
+        margin-top: 2em;
+        font-size: 1em;
+    }
+
+    .input-registro{
+        padding: 1em;
+        border-radius: 0.5em;
+        border: none;
+        background-color: #d3d3d3;
+    }
+
+    .boton-registro{
+        margin-top: 2em;
+        padding: 1em;
+        border-radius: 0.5em;
+        border: none;
+        background-color: #333;
+        color: #fff;
+        width:max-content;
+        margin-bottom: calc(25%);
+        
+    }
+
+    .col-2 .footer-registro{
+        position: fixed;
+        bottom: 0;
+        background-color: #aba8a8;
+        width: 100vw;
+        height: calc(100vh - 92vh);
+    }
+
+    .footer-registro{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        position: fixed;
+        margin-left: calc(20%);
+    }
+
+    .footer-registro p {
+        display: block;
+        color: transparent;
+        user-select: none;
+        background-image: url('../Imagenes/EduTaskFooter.png');
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .footer-registro a , .headerIniciarSesion a{
+        text-decoration: none;
+        color: #fff;
+        font-weight: bold;
+    }
+
+    .footer-registro li, .bodyRegistro li{
+        list-style: none;
+    }
+        
     
 }
+} 
+
+
+
 
 

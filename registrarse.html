@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduTask - Login</title>
+    <link rel="stylesheet" href="Styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body class="bodyRegistro">
+    
+    <header class="headerRegistro">
+        <div class="menu-hamburguesa">
+            <h1 class="eduTask">EduTask</h1>
+            <input type="button" id="menuIcon" value="☰">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Ingresar</a></li>
+                <li><a href="#">Registrarse</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="col-2">
+    <main class="main-registro">
+        <h2 class="title">¡Bienvenidos!</h2>
+
+        <div class="container-registrarse">
+        <form class="registrarse-form">
+            <h2>Registrarse</h2>
+            <label for="name" class="label-registro">Nombre</label>
+            <input type="text" id="name" name="name" class="input-registro" required>
+
+            <label for="email" class="label-registro">Email</label>
+            <input type="email" id="email" name="email" class="input-registro" required>
+
+            <label for="password" class="label-registro">Contraseña</label>
+            <input type="password" id="password" name="password" class="input-registro" required>
+
+            <label for="confirm-password" class="label-registro">Repetir contraseña</label>
+            <input type="password" id="confirm-password" name="confirm-password" class="input-registro" required>
+
+            <button type="submit" class="boton-registro">Registrarse</button>
+        </form>
+    </div>
+    </main>
+
+    <footer class="footer-registro">
+        <div>
+            <p>EduTask</p>
+        </div>
+        <div>
+            <ul>
+                <li><a href="#">Preguntas frecuentes</a></li>
+                <li><a href="#">Ayuda</a></li>
+            </ul>
+        </div>
+    </footer>
+    </div>
+    <script src="src/main.js"></script>
+</body>
+</html>
+
