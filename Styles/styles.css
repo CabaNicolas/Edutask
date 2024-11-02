@@ -1,4 +1,4 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     font-family: 'Alexandria', sans-serif;
@@ -6,13 +6,13 @@
 
 /* INDEX */
 
-@media (min-width: 320px) and (max-width: 768px){
-    
-    .bodyIniciarSesion{
+@media (min-width: 320px) and (max-width: 768px) {
+
+    .bodyIniciarSesion {
         background-color: #f5f5f5;
     }
 
-    .eduTask{
+    .eduTask {
         color: transparent;
         user-select: none;
         background-image: url('../Imagenes/EduTask.png');
@@ -23,7 +23,7 @@
         width: 3em;
     }
 
-    .headerIniciarSesion{
+    .headerIniciarSesion {
         background-color: #333;
         color: #fff;
         height: 4vh;
@@ -32,7 +32,7 @@
         width: 100vw;
     }
 
-    #menuIcon{
+    #menuIcon {
         background-color: #333;
         color: #fff;
         border: none;
@@ -40,43 +40,43 @@
         margin-right: 1em;
     }
 
-    .menu-hamburguesa{
+    .menu-hamburguesa {
         display: flex;
         justify-content: space-between;
         align-items: center;
     }
-    
+
     .headerIniciarSesion nav {
-        display: block; 
+        display: block;
         opacity: 0;
         transform: translateY(-10px);
         transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
         overflow: hidden;
         visibility: hidden;
-        height: 0; 
+        height: 0;
     }
 
     .headerIniciarSesion nav.show {
         opacity: 1;
         transform: translateY(0);
-        height: auto; 
+        height: auto;
         visibility: visible;
     }
-    
-    .headerIniciarSesion nav li{
+
+    .headerIniciarSesion nav li {
         list-style: none;
         text-align: right;
         margin-right: 2em;
     }
 
-    .headerIniciarSesion nav a{
+    .headerIniciarSesion nav a {
         text-decoration: none;
         color: #fff;
         font-weight: bold;
         font-size: 1em;
     }
 
-    .headerIniciarSesion nav li:first-child{
+    .headerIniciarSesion nav li:first-child {
         background-image: url('../Imagenes/HomeIcon.png');
         background-size: contain;
         background-position: right;
@@ -84,7 +84,7 @@
         padding-right: 2em;
     }
 
-    .headerIniciarSesion nav li:last-child{
+    .headerIniciarSesion nav li:last-child {
         background-image: url('../Imagenes/LoginIcon.png');
         background-size: contain;
         background-position: right;
@@ -93,43 +93,43 @@
         margin-top: 0.4em;
     }
 
-    .col-2{
+    .col-2 {
         width: 100vw;
     }
 
-    .title{
+    .title {
         padding-top: 3em;
         margin-left: 1em;
         font-size: 2em;
     }
 
-    .subtitle{
+    .subtitle {
         margin-top: 2em;
         margin-left: 1.5em;
         font-size: 1.5em;
     }
 
-    .form-login{
+    .form-login {
         margin-left: 2.2em;
         display: flex;
         flex-direction: column;
         width: 50%;
     }
 
-    .form-login label{
+    .form-login label {
         margin: 1em;
         margin-top: 2em;
         font-size: 1em;
     }
 
-    .form-login input{
+    .form-login input {
         padding: 1em;
         border-radius: 0.5em;
         border: none;
         background-color: #d3d3d3;
     }
 
-    .form-login button{
+    .form-login button {
         margin-top: 2em;
         padding: 1em;
         border-radius: 0.5em;
@@ -139,18 +139,18 @@
         width: 50%;
     }
 
-    .mail p{
+    .mail p {
         margin-top: 2em;
         margin-left: 4em;
     }
 
-    .mail a{
+    .mail a {
         text-decoration: none;
         color: #333;
         font-weight: bold;
     }
 
-    .col-2 footer{
+    .col-2 footer {
         position: fixed;
         bottom: 0;
         background-color: #aba8a8;
@@ -158,7 +158,7 @@
         height: calc(100vh - 92vh);
     }
 
-    footer{
+    footer {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
@@ -182,16 +182,17 @@
         font-size: 0.7em;
     }
 
-    footer ul{
+    footer ul {
         padding: 0;
         text-align: center;
     }
 
-    footer li, .bodyIniciarSesion li{
+    footer li,
+    .bodyIniciarSesion li {
         list-style: none;
     }
-        
-    footer div{
+
+    footer div {
         width: 50%;
     }
 
@@ -199,11 +200,11 @@
 
 @media (min-width: 769px) and (max-width: 1024px) {
 
-    .bodyIniciarSesion{
+    .bodyIniciarSesion {
         background-color: #f5f5f5;
     }
 
-    .eduTask{
+    .eduTask {
         color: transparent;
         user-select: none;
         background-image: url('../Imagenes/EduTask.png');
@@ -215,7 +216,7 @@
         width: 3em;
     }
 
-    .headerIniciarSesion{
+    .headerIniciarSesion {
         background-color: #333;
         color: #fff;
         height: 4vh;
@@ -224,7 +225,7 @@
         width: 100vw;
     }
 
-    #menuIcon{
+    #menuIcon {
         background-color: #333;
         color: #fff;
         border: none;
@@ -233,44 +234,44 @@
         margin-top: 0.3em;
     }
 
-    .menu-hamburguesa{
+    .menu-hamburguesa {
         display: flex;
         justify-content: space-between;
         align-items: center;
     }
-    
+
     .headerIniciarSesion nav {
-        display: block; 
+        display: block;
         opacity: 0;
         transform: translateY(-10px);
         transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
         overflow: hidden;
         visibility: hidden;
-        height: 0; 
+        height: 0;
     }
 
     .headerIniciarSesion nav.show {
         opacity: 1;
         transform: translateY(0);
-        height: auto; 
+        height: auto;
         visibility: visible;
     }
-    
-    .headerIniciarSesion nav li{
+
+    .headerIniciarSesion nav li {
         list-style: none;
         text-align: right;
         margin-right: 2em;
         margin-top: 0.5em;
     }
 
-    .headerIniciarSesion nav a{
+    .headerIniciarSesion nav a {
         text-decoration: none;
         color: #fff;
         font-weight: bold;
         font-size: 1em;
     }
 
-    .headerIniciarSesion nav li:first-child{
+    .headerIniciarSesion nav li:first-child {
         background-image: url('../Imagenes/HomeIcon.png');
         background-size: contain;
         background-position: right;
@@ -278,7 +279,7 @@
         padding-right: 2em;
     }
 
-    .headerIniciarSesion nav li:last-child{
+    .headerIniciarSesion nav li:last-child {
         background-image: url('../Imagenes/LoginIcon.png');
         background-size: contain;
         background-position: right;
@@ -287,43 +288,44 @@
         margin-top: 1em;
     }
 
-    .col-2{
+    .col-2 {
         width: 100vw;
     }
 
-    .title{
+    .title {
         padding-top: 5em;
-        margin-left: 1em;;
+        margin-left: 1em;
+        ;
         font-size: 3em;
     }
 
-    .subtitle{
+    .subtitle {
         margin-top: 2em;
         margin-left: 1.5em;
         font-size: 2.25em;
     }
 
-    .form-login{
+    .form-login {
         margin-left: 3.2em;
         display: flex;
         flex-direction: column;
         width: 50%;
     }
 
-    .form-login label{
+    .form-login label {
         margin: 1em;
         margin-top: 2em;
         font-size: 1.5em;
     }
 
-    .form-login input{
+    .form-login input {
         padding: 1em;
         border-radius: 0.5em;
         border: none;
         background-color: #d3d3d3;
     }
 
-    .form-login button{
+    .form-login button {
         margin-top: 3em;
         padding: 1em;
         border-radius: 0.5em;
@@ -333,19 +335,19 @@
         width: 50%;
     }
 
-    .mail p{
+    .mail p {
         margin-top: 2em;
         margin-left: 2.7em;
         font-size: 1.2em;
     }
 
-    .mail a{
+    .mail a {
         text-decoration: none;
         color: #333;
         font-weight: bold;
     }
 
-    .col-2 footer{
+    .col-2 footer {
         position: fixed;
         bottom: 0;
         background-color: #aba8a8;
@@ -353,7 +355,7 @@
         height: calc(100vh - 92vh);
     }
 
-    footer{
+    footer {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
@@ -371,39 +373,40 @@
         font-size: 1.5em;
     }
 
-    footer a{
+    footer a {
         text-decoration: none;
         color: #fff;
         font-weight: bold;
         font-size: 1.3em;
     }
 
-    footer ul{
+    footer ul {
         padding: 0;
         text-align: center;
     }
 
-    footer li, .bodyIniciarSesion li{
+    footer li,
+    .bodyIniciarSesion li {
         list-style: none;
     }
-        
-    footer div{
+
+    footer div {
         width: 50%;
     }
 }
 
-@media screen and (min-width: 1025px){
-    
-    .bodyIniciarSesion{
+@media screen and (min-width: 1025px) {
+
+    .bodyIniciarSesion {
         background-color: #f5f5f5;
         display: flex;
-        justify-content:flex-start;
+        justify-content: flex-start;
         height: 100vh;
         width: 100vw;
         overflow: hidden;
     }
 
-    .eduTask{
+    .eduTask {
         color: transparent;
         user-select: none;
         background-image: url('../Imagenes/EduTask.png');
@@ -413,11 +416,11 @@
         padding-left: 4em;
     }
 
-    #menuIcon{
+    #menuIcon {
         display: none;
     }
 
-    .headerIniciarSesion{
+    .headerIniciarSesion {
         background-color: #333;
         color: #fff;
         padding-left: 1em;
@@ -426,15 +429,15 @@
         height: 100vh;
     }
 
-    .headerIniciarSesion nav{
+    .headerIniciarSesion nav {
         margin-top: 4em;
     }
 
-    .headerIniciarSesion nav li{
+    .headerIniciarSesion nav li {
         margin-top: 2em;
     }
 
-    .headerIniciarSesion nav li:first-child{
+    .headerIniciarSesion nav li:first-child {
         background-image: url('../Imagenes/HomeIcon.png');
         background-size: contain;
         background-position: left;
@@ -442,7 +445,7 @@
         padding-left: 2em;
     }
 
-    .headerIniciarSesion nav li:last-child{
+    .headerIniciarSesion nav li:last-child {
         background-image: url('../Imagenes/LoginIcon.png');
         background-size: contain;
         background-position: left;
@@ -450,42 +453,42 @@
         padding-left: 2em;
     }
 
-    .col-2{
+    .col-2 {
         width: 100vw;
     }
 
-    .title{
+    .title {
         margin: 2em;
         font-size: 2em;
     }
 
-    .subtitle{
+    .subtitle {
         margin: 2em;
         margin-left: 2.7em;
         font-size: 1.5em;
     }
 
-    .form-login{
+    .form-login {
         margin-left: 4em;
         display: flex;
         flex-direction: column;
         width: 50%;
     }
 
-    .form-login label{
+    .form-login label {
         margin: 1em;
         margin-top: 2em;
         font-size: 1em;
     }
 
-    .form-login input{
+    .form-login input {
         padding: 1em;
         border-radius: 0.5em;
         border: none;
         background-color: #d3d3d3;
     }
 
-    .form-login button{
+    .form-login button {
         margin-top: 2em;
         padding: 1em;
         border-radius: 0.5em;
@@ -495,18 +498,18 @@
         width: 50%;
     }
 
-    .mail p{
+    .mail p {
         margin-top: 2em;
         margin-left: 4em;
     }
 
-    .mail a{
+    .mail a {
         text-decoration: none;
         color: #333;
         font-weight: bold;
     }
 
-    .col-2 footer{
+    .col-2 footer {
         position: fixed;
         bottom: 0;
         background-color: #aba8a8;
@@ -514,7 +517,7 @@
         height: calc(100vh - 92vh);
     }
 
-    footer{
+    footer {
         display: flex;
         justify-content: space-around;
         align-items: center;
@@ -530,174 +533,262 @@
         background-repeat: no-repeat;
     }
 
-    footer a , .headerIniciarSesion a{
+    footer a,
+    .headerIniciarSesion a {
         text-decoration: none;
         color: #fff;
         font-weight: bold;
     }
 
-    footer li, .bodyIniciarSesion li{
+    footer li,
+    .bodyIniciarSesion li {
         list-style: none;
     }
-        
-    footer div{
+
+    footer div {
         width: 50%;
     }
-   
+
     /* REGISTRO */
-    
 
-    @media screen and (min-width: 1025px){
 
-    .bodyRegistro{
-        background-color: #f5f5f5;
-        display: flex;
-        justify-content:flex-start;
-        height: 100vh;
-        width: 100vw;
+    @media screen and (min-width: 1025px) {
+
+        .bodyRegistro {
+            background-color: #f5f5f5;
+            display: flex;
+            justify-content: flex-start;
+            height: 100vh;
+            width: 100vw;
+        }
+
+        .eduTask {
+            color: transparent;
+            user-select: none;
+            background-image: url('../Imagenes/EduTask.png');
+            background-size: contain;
+            background-position: center;
+            background-repeat: no-repeat;
+            padding-left: 4em;
+        }
+
+        #menuIcon {
+            display: none;
+        }
+
+        .headerRegistro {
+            background-color: #333;
+            color: #fff;
+            padding-left: 1em;
+            padding-right: 1em;
+            padding-top: 4em;
+            height: 100vh;
+            position: fixed;
+            z-index: 1;
+        }
+
+        .headerRegistro a {
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+            font-weight: boldss;
+        }
+
+        .headerRegistro nav {
+            margin-top: 4em;
+        }
+
+        .headerRegistro nav li {
+            margin-top: 2em;
+        }
+
+        .headerRegistro nav li:first-child {
+            background-image: url('../Imagenes/HomeIcon.png');
+            background-size: contain;
+            background-position: left;
+            background-repeat: no-repeat;
+            padding-left: 2em;
+        }
+
+        .headerRegistro nav li:last-child {
+            background-image: url('../Imagenes/LoginIcon.png');
+            background-size: contain;
+            background-position: left;
+            background-repeat: no-repeat;
+            padding-left: 2em;
+        }
+
+        .col-2 {
+            width: 100vw;
+        }
+
+        .title {
+            margin: 2em;
+            font-size: 2em;
+        }
+
+        .main-registro {
+            margin-left: calc(22%);
+        }
+
+        .registrarse-form {
+            margin-left: 4em;
+            display: flex;
+            flex-direction: column;
+            width: 40%;
+        }
+
+        .label-registro {
+            margin: 1em;
+            margin-top: 2em;
+            font-size: 1em;
+        }
+
+        .input-registro {
+            padding: 1em;
+            border-radius: 0.5em;
+            border: none;
+            background-color: #d3d3d3;
+        }
+
+        .boton-registro {
+            margin-top: 2em;
+            padding: 1em;
+            border-radius: 0.5em;
+            border: none;
+            background-color: #333;
+            color: #fff;
+            width: max-content;
+            margin-bottom: calc(25%);
+
+        }
+
+        .col-2 .footer-registro {
+            position: fixed;
+            bottom: 0;
+            background-color: #aba8a8;
+            width: 100vw;
+            height: calc(100vh - 92vh);
+        }
+
+        .footer-registro {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            position: fixed;
+            margin-left: calc(20%);
+        }
+
+        .footer-registro p {
+            display: block;
+            color: transparent;
+            user-select: none;
+            background-image: url('../Imagenes/EduTaskFooter.png');
+            background-size: contain;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        .footer-registro a,
+        .headerIniciarSesion a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+        }
+
+        .footer-registro li,
+        .bodyRegistro li {
+            list-style: none;
+        }
+
+
     }
 
-    .eduTask{
-        color: transparent;
-        user-select: none;
-        background-image: url('../Imagenes/EduTask.png');
-        background-size: contain;
-        background-position: center;
-        background-repeat: no-repeat;
-        padding-left: 4em;
-    }
+    /* HOME */
+    @media screen and (min-width: 1025px) {
+        .bodyHome {
+            background-color: #f5f5f5;
+            display: flex;
+            justify-content: flex-start;
+            height: 100vh;
+            width: 100vw;
+        }
 
-    #menuIcon{
-        display: none;
-    }
+        .main-content {
+            flex: 1;
+            padding: 1rem;
+            overflow-y: auto;
+        }
 
-    .headerRegistro{
-        background-color: #333;
-        color: #fff;
-        padding-left: 1em;
-        padding-right: 1em;
-        padding-top: 4em;
-        height: 100vh;
-        position: fixed;
-        z-index: 1;
-    }
+        .dashboard {
+            display: grid;
+            grid-template-areas:
+                "calendario todo materias"
+                "entregas todo grupos";
+            grid-template-columns: 33% 33% 33%;
+            grid-template-rows: 40% 40%;
+            gap: .5rem;
+        }
 
-    .headerRegistro a{
-        text-decoration: none;
-        color: rgb(255, 255, 255);
-        font-weight: boldss;
-    }
+        .calendario,
+        .todo,
+        .materias,
+        .grupos,
+        .entregas {
+            height: auto;
+            background-color: #fff;
+            padding: 1rem;
+            border-radius: .5rem;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
 
-    .headerRegistro nav{
-        margin-top: 4em;
-    }
+        .calendario {
+            grid-area: calendario;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
 
-    .headerRegistro nav li{
-        margin-top: 2em;
-    }
+        .calendarioTexto {
+            text-align: center;
+        }
 
-    .headerRegistro nav li:first-child{
-        background-image: url('../Imagenes/HomeIcon.png');
-        background-size: contain;
-        background-position: left;
-        background-repeat: no-repeat;
-        padding-left: 2em;
-    }
+        .calendarioImg {
+            height: 80%;
+            margin: .2rem;
+        }
 
-    .headerRegistro nav li:last-child{
-        background-image: url('../Imagenes/LoginIcon.png');
-        background-size: contain;
-        background-position: left;
-        background-repeat: no-repeat;
-        padding-left: 2em;
-    }
+        .todo {
+            grid-area: todo;
+        }
 
-    .col-2{
-        width: 100vw;
-    }
+        .materias {
+            grid-area: materias;
+        }
 
-    .title{
-        margin: 2em;
-        font-size: 2em;
-    }
+        .entregas {
+            grid-area: entregas;
+        }
 
-    .main-registro{
-        margin-left: calc(22%);
-    }
+        .grupos {
+            grid-area: grupos;
+        }
 
-    .registrarse-form{
-        margin-left: 4em;
-        display: flex;
-        flex-direction: column;
-        width: 40%;
-    }
+        .tarjetas {
+            height: 95%;
+            margin: .2rem;
+            display: flex;
+            justify-content: space-around;
+        }
 
-    .label-registro{
-        margin: 1em;
-        margin-top: 2em;
-        font-size: 1em;
+        .tarjeta {
+            text-align: center;
+            height: 45%;
+            width: 45%;
+            background-color: #cecccc;
+            padding: 1rem;
+            border-radius: 5px;
+            margin-bottom: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
     }
-
-    .input-registro{
-        padding: 1em;
-        border-radius: 0.5em;
-        border: none;
-        background-color: #d3d3d3;
-    }
-
-    .boton-registro{
-        margin-top: 2em;
-        padding: 1em;
-        border-radius: 0.5em;
-        border: none;
-        background-color: #333;
-        color: #fff;
-        width:max-content;
-        margin-bottom: calc(25%);
-        
-    }
-
-    .col-2 .footer-registro{
-        position: fixed;
-        bottom: 0;
-        background-color: #aba8a8;
-        width: 100vw;
-        height: calc(100vh - 92vh);
-    }
-
-    .footer-registro{
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        position: fixed;
-        margin-left: calc(20%);
-    }
-
-    .footer-registro p {
-        display: block;
-        color: transparent;
-        user-select: none;
-        background-image: url('../Imagenes/EduTaskFooter.png');
-        background-size: contain;
-        background-position: center;
-        background-repeat: no-repeat;
-    }
-
-    .footer-registro a , .headerIniciarSesion a{
-        text-decoration: none;
-        color: #fff;
-        font-weight: bold;
-    }
-
-    .footer-registro li, .bodyRegistro li{
-        list-style: none;
-    }
-        
-    
 }
-} 
-
-
-
-
-

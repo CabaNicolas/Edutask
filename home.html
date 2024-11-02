@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduTask - Home</title>
+    <link rel="stylesheet" href="Styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&display=swap" rel="stylesheet">
+
+</head>
+
+<body class="bodyHome">
+    <header class="headerIniciarSesion">
+        <div class="menu-hamburguesa">
+            <h1 class="eduTask">EduTask</h1>
+            <input type="button" id="menuIcon" value="☰">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#"><strong>Inicio</strong></a></li>
+                <li><a href="#">Materias</a></li>
+                <li><a href="#">Grupos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <header>
+            <h1>¡Hola, [usuario]!</h1>
+        </header>
+
+        <section class="dashboard">
+            <div class="calendario">
+                <div class="calendarioTexto">
+                    <p>Noviembre</p>
+                    <h1>2</h1>
+                </div>
+                <img src="Imagenes/calendario.png" alt="calendario" class="calendarioImg">
+            </div>
+
+            <div class="todo">
+                <h4>To Do</h4>
+                <input type="checkbox" id="tarea1">
+                <label for="tarea1">Hacer wireframe(vei)</label><br><br>
+
+                <input type="checkbox" id="tarea2">
+                <label for="tarea2">Hacer tarea(inglés)</label>
+            </div>
+
+            <div class="materias">
+                <h4>Materias</h4>
+                <div class="tarjetas">
+                    <div class="tarjeta">Visualización e interfaces</div>
+                    <div class="tarjeta">Inglés</div>
+                </div>
+            </div>
+
+            <div class="entregas">
+                <h4>Entregas</h4>
+                <ul>
+                    <li>Entrega wireframe</li>
+                    <li>Entrega Tp final vei</li>
+                </ul>
+            </div>
+
+            <div class="grupos">
+                <h4>Grupos</h4>
+                <div class="tarjetas">
+                    <div class="tarjeta">TP final vei</div>
+                    <div class="tarjeta">Consultas generales vei</div>
+                </div>
+            </div>
+        </section>
+    </main>
+    </div>
+</body>
+
+</html>
