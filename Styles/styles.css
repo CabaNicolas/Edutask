@@ -719,6 +719,55 @@
             overflow-y: auto;
         }
 
+        .headerHome {
+            background-color: #333;
+            color: #fff;
+            padding-left: 1em;
+            padding-right: 1em;
+            padding-top: 4em;
+            height: 100vh;
+            position: fixed;
+            z-index: 1;
+        }
+
+        .headerHome a {
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+            font-weight: boldss;
+        }
+
+        .headerHome nav {
+            margin-top: 4em;
+        }
+
+        .headerHome nav li {
+            margin-top: 2em;
+        }
+
+        .headerHome nav li:first-child {
+            background-image: url('../Imagenes/HomeIcon.png');
+            background-size: contain;
+            background-position: left;
+            background-repeat: no-repeat;
+            padding-left: 2em;
+        }
+
+        .headerHome nav li:nth-child(2) {
+            background-image: url('../Imagenes/LoginIcon.png');
+            background-size: contain;
+            background-position: left;
+            background-repeat: no-repeat;
+            padding-left: 2em;
+        }
+
+        .headerHome nav li:last-child {
+            background-image: url('../Imagenes/GroupIcon.png');
+            background-size: contain;
+            background-position: left;
+            background-repeat: no-repeat;
+            padding-left: 2em;
+        }
+
         .dashboard {
             display: grid;
             grid-template-areas:
