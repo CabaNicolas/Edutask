@@ -711,13 +711,20 @@
             justify-content: flex-start;
             height: 100vh;
             width: 100vw;
+           
         }
 
         .main-content {
             flex: 1;
             padding: 1rem;
             overflow-y: auto;
+            margin-left: 19em;
         }
+
+        .main-content header{
+            margin: 1em 0 3em 0em;
+        }
+        
 
         .headerHome {
             background-color: #333;
@@ -839,5 +846,47 @@
             margin-bottom: 10px;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
+    }
+
+    /*MATERIAS*/
+    @media screen and (min-width: 1025px) {
+        .subtitle-crearMateria {
+            background-image: url('../Imagenes/LoginRelleno.png');
+            background-size: contain;
+            background-position: left;
+            background-repeat: no-repeat;
+            padding-left: 2em;
+        }
+
+        .form-crearMateria {
+            margin-left: 2.2em;
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+        }
+    
+        .form-crearMateria label {
+            margin: 1em;
+            margin-top: 2em;
+            font-size: 1em;
+        }
+    
+        .form-crearMateria input {
+            padding: 1em;
+            border-radius: 0.5em;
+            border: none;
+            background-color: #d3d3d3;
+        }
+    
+        .form-crearMateria button {
+            margin-top: 2em;
+            padding: 1em;
+            border-radius: 0.5em;
+            border: none;
+            background-color: #333;
+            color: #fff;
+            width: 50%;
+        }
+
     }
 }
