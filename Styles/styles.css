@@ -850,7 +850,7 @@ footer div {
         }
     }
 
-    /* MATERIAS */
+    /* CREAR MATERIAS */
     @media screen and (min-width: 1025px) {
         .subtitle-crearMateria {
             background-image: url('../Imagenes/LoginRelleno.png');
@@ -891,6 +891,13 @@ footer div {
         }
 
     }
+
+    /*MATERIA*/
+    @media screen and (min-width: 1025px) {
+    
+        }
+        
+    
 
 
 

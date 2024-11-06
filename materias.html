@@ -4,69 +4,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EduTask - Materias</title>
+    <title>EduTask - Materia</title>
     <link rel="stylesheet" href="Styles/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&display=swap" rel="stylesheet">
 </head>
 
-<body>
 
-    <body class="bodyHome">
-        <header class="headerHome">
-            <div class="menu-hamburguesa">
-                <h1 class="eduTask">EduTask</h1>
-                <input type="button" id="menuIcon" value="☰">
-            </div>
-            <nav>
-                <ul>
-                    <li><a href="home.html">Inicio</strong></a></li>
-                    <li><a href="materias.html"><strong>Materias</strong></a></li>
-                    <li><a href="#">Grupos</a></li>
-                </ul>
-            </nav>
-        </header>
-        <div class="col-2">
-            <main class="main-content">
-
-                <header>
-                    <h1>¡Hola, [usuario]!</h1>
-                </header>
-
-                <main class="mail">
-
-                    <div class="subtitle-crearMateria">
-                        <h2>Crear materia</h2>
-                    </div>
-
-                    <form class="form-crearMateria" action="home.html">
-                        <label for="nombre">Nombre</label>
-                        <input type="text" id="nombre" name="nombre" required>
-
-                        <label for="descripcion">Descripcion</label>
-                        <input type="text" id="descripcion" name="descripcion" style="height: 150px;">
-
-                        <button type="submit">Crear materia</button>
-                    </form>
-                </main>
-
-
-            </main>
-
-            <footer>
-                <div>
-                    <p>EduTask</p>
-                </div>
-                <div>
-                    <ul>
-                        <li><a href="#">Preguntas frecuentes</a></li>
-                        <li><a href="#">Ayuda</a></li>
-                    </ul>
-                </div>
-            </footer>
+<main class="bodyHome">
+    <header class="headerHome">
+        <div class="menu-hamburguesa">
+            <h1 class="eduTask">EduTask</h1>
+            <input type="button" id="menuIcon" value="☰">
         </div>
-        <script src="src/main.js"></script>
+        <nav>
+            <ul>
+                <li><a href="home.html">Inicio</strong></a></li>
+                <li><a href="materias.html"><strong>Materias</strong></a></li>
+                <li><a href="#">Grupos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <body class="bodyMateria">
+        <div>
+            <h1>¡Hola, nicocaba!</h1>
+            <button class="crear-materia">Crear materia</button>
+        </div>
+
     </body>
+
+
+    <div class="col-2">
+        <footer>
+            <div>
+                <p>EduTask</p>
+            </div>
+            <div>
+                <ul>
+                    <li><a href="#">Preguntas frecuentes</a></li>
+                    <li><a href="#">Ayuda</a></li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+    <script src="src/main.js"></script>
+</main>
 
 </html>
