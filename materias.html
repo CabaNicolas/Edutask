@@ -9,10 +9,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&display=swap" rel="stylesheet">
+
+
 </head>
 
 
-<main class="bodyHome">
+<body class="bodyHome">
     <header class="headerHome">
         <div class="menu-hamburguesa">
             <h1 class="eduTask">EduTask</h1>
@@ -20,24 +22,115 @@
         </div>
         <nav>
             <ul>
-                <li><a href="home.html">Inicio</strong></a></li>
-                <li><a href="materias.html"><strong>Materias</strong></a></li>
+                <li><a href="#"><strong>Inicio</strong></a></li>
+                <li><a href="materias.html">Materias</a></li>
                 <li><a href="#">Grupos</a></li>
             </ul>
         </nav>
     </header>
-
-
-    <body class="bodyMateria">
-        <div>
-            <h1>¡Hola, nicocaba!</h1>
-            <button class="crear-materia">Crear materia</button>
-        </div>
-
-    </body>
-
-
     <div class="col-2">
+        <main class="main-materias">
+            <header>
+                <h1>¡Hola, [usuario]!</h1>
+            </header>
+            <div class="segundoHeader">
+                <span class="iconoMateriaMaterias">Materias</span>
+                <button type="button" class="btn btn-primary"><a href="crearMaterias.html">Crear materia</a></button>
+            </div>
+
+            <div class="bodyMaterias">
+                <div class="contenedorMaterias">
+
+                    <div class="materia">
+                        <div class="materiaHeader">
+                            <span>Matemáticas</span>
+                            <button type="button" class="btn btn-primary"><a href="materia.html">Ver
+                                    materia</a></button>
+                        </div>
+                        <div class="materiaBody">
+                            <p>Profesor: [nombre del profesor]</p>
+                            <p>Alumnos: [número de alumnos]</p>
+                        </div>
+                    </div>
+                    <div class="materia">
+                        <div class="materiaHeader">
+                            <span>Español</span>
+                            <button type="button" class="btn btn-primary"><a href="materia.html">Ver
+                                    materia</a></button>
+                        </div>
+                        <div class="materiaBody">
+                            <p>Profesor: [nombre del profesor]</p>
+                            <p>Alumnos: [número de alumnos]</p>
+                        </div>
+                    </div>
+                    <div class="materia">
+                        <div class="materiaHeader">
+                            <span>Historia</span>
+                            <button type="button" class="btn btn-primary"><a href="materia.html">Ver
+                                    materia</a></button>
+                        </div>
+                        <div class="materiaBody">
+                            <p>Profesor: [nombre del profesor]</p>
+                            <p>Alumnos: [número de alumnos]</p>
+                        </div>
+                    </div>
+                    <div class="materia">
+                        <div class="materiaHeader">
+                            <span>Biología</span>
+                            <button type="button" class="btn btn-primary"><a href="materia.html">Ver
+                                    materia</a></button>
+                        </div>
+                        <div class="materiaBody">
+                            <p>Profesor: [nombre del profesor]</p>
+                            <p>Alumnos: [número de alumnos]</p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="contenedorTodoYentregas">
+                    <div class="ToDoMaterias">
+                        <h2 class="iconoToDolist">To Do</h2>
+                        <div class="ToDoMateria">
+                            <div class="ToDoMateriaHeader">
+                                <span>Tarea matematica</span>
+                            </div>
+                        </div>
+                        <div class="ToDoMateria">
+                            <div class="ToDoMateriaHeader">
+                                <span>Examen de español</span>
+                            </div>
+                        </div>
+                        <div class="ToDoMateria">
+                            <div class="ToDoMateriaHeader">
+                                <span>Leer libro de historia</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="entregasMaterias">
+                        <h2 class="iconoEntregas">Entregas</h2>
+                        <div class="entregaMateria">
+                            <div class="entregaMateriaHeader">
+                                <span>Entrega de tarea de matemáticas</span>
+                            </div>
+                        </div>
+                        <div class="entregaMateria">
+                            <div class="entregaMateriaHeader">
+                                <span>Entrega de examen de español</span>
+                            </div>
+                        </div>
+                        <div class="entregaMateria">
+                            <div class="entregaMateriaHeader">
+                                <span>Entrega de libro de historia</span>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </main>
         <footer>
             <div>
                 <p>EduTask</p>
@@ -51,6 +144,6 @@
         </footer>
     </div>
     <script src="src/main.js"></script>
-</main>
+</body>
 
 </html>

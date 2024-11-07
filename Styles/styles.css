@@ -5,11 +5,11 @@
 }
 
 @media (min-width: 320px) and (max-width: 768px) {
-.bodyIniciarSesion {
+    .bodyIniciarSesion {
         background-color: #f5f5f5;
     }
 
-.eduTask {
+    .eduTask {
         color: transparent;
         user-select: none;
         background-image: url('../Imagenes/EduTask.png');
@@ -20,8 +20,8 @@
         width: 3em;
     }
 
-.headerIniciarSesion {
-    background-color: #2b2769;
+    .headerIniciarSesion {
+        background-color: #2b2769;
         color: #fff;
         height: 4vh;
         transition: height 0.3s ease-in-out;
@@ -29,51 +29,51 @@
         width: 100vw;
     }
 
-#menuIcon {
-    background-color: #2b2769;
+    #menuIcon {
+        background-color: #2b2769;
         color: #fff;
         border: none;
         font-size: 1.5em;
         margin-right: 1em;
     }
 
-.menu-hamburguesa {
+    .menu-hamburguesa {
         display: flex;
         justify-content: space-between;
         align-items: center;
     }
-    
+
     .headerIniciarSesion nav {
-        display: block; 
+        display: block;
         opacity: 0;
         transform: translateY(-10px);
         transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
         overflow: hidden;
         visibility: hidden;
-        height: 0; 
+        height: 0;
     }
 
     .headerIniciarSesion nav.show {
         opacity: 1;
         transform: translateY(0);
-        height: auto; 
+        height: auto;
         visibility: visible;
     }
-    
-.headerIniciarSesion nav li {
+
+    .headerIniciarSesion nav li {
         list-style: none;
         text-align: right;
         margin-right: 2em;
     }
 
-.headerIniciarSesion nav a {
+    .headerIniciarSesion nav a {
         text-decoration: none;
         color: #fff;
         font-weight: bold;
         font-size: 1em;
     }
 
-.headerIniciarSesion nav li:first-child {
+    .headerIniciarSesion nav li:first-child {
         background-image: url('../Imagenes/HomeIcon.png');
         background-size: contain;
         background-position: right;
@@ -81,7 +81,7 @@
         padding-right: 2em;
     }
 
-.headerIniciarSesion nav li:last-child {
+    .headerIniciarSesion nav li:last-child {
         background-image: url('../Imagenes/LoginIcon.png');
         background-size: contain;
         background-position: right;
@@ -90,43 +90,43 @@
         margin-top: 0.4em;
     }
 
-.col-2 {
+    .col-2 {
         width: 100vw;
     }
 
-.title {
+    .title {
         padding-top: 3em;
         margin-left: 1em;
         font-size: 2em;
     }
 
-.subtitle {
+    .subtitle {
         margin-top: 2em;
         margin-left: 1.5em;
         font-size: 1.5em;
     }
 
-.form-login {
+    .form-login {
         margin-left: 2.2em;
         display: flex;
         flex-direction: column;
         width: 50%;
     }
 
-.form-login label {
+    .form-login label {
         margin: 1em;
         margin-top: 2em;
         font-size: 1em;
     }
 
-.form-login input {
+    .form-login input {
         padding: 1em;
         border-radius: 0.5em;
         border: none;
-    background-color: #cfd9dffb;
+        background-color: #cfd9dffb;
     }
 
-.form-login button {
+    .form-login button {
         margin-top: 2em;
         padding: 1em;
         border-radius: 0.5em;
@@ -136,26 +136,26 @@
         width: 50%;
     }
 
-.mail p {
+    .mail p {
         margin-top: 2em;
         margin-left: 4em;
     }
 
-.mail a {
+    .mail a {
         text-decoration: none;
         color: #333;
         font-weight: bold;
     }
 
-.col-2 footer {
+    .col-2 footer {
         position: fixed;
         bottom: 0;
-    background-color: #333;
+        background-color: #333;
         width: 100vw;
         height: calc(100vh - 92vh);
     }
 
-footer {
+    footer {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
@@ -179,17 +179,17 @@ footer {
         font-size: 0.7em;
     }
 
-footer ul {
+    footer ul {
         padding: 0;
         text-align: center;
     }
 
-footer li,
-.bodyIniciarSesion li {
+    footer li,
+    .bodyIniciarSesion li {
         list-style: none;
     }
-        
-footer div {
+
+    footer div {
         width: 50%;
     }
 }
@@ -236,24 +236,24 @@ footer div {
         justify-content: space-between;
         align-items: center;
     }
-    
+
     .headerIniciarSesion nav {
-        display: block; 
+        display: block;
         opacity: 0;
         transform: translateY(-10px);
         transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
         overflow: hidden;
         visibility: hidden;
-        height: 0; 
+        height: 0;
     }
 
     .headerIniciarSesion nav.show {
         opacity: 1;
         transform: translateY(0);
-        height: auto; 
+        height: auto;
         visibility: visible;
     }
-    
+
     .headerIniciarSesion nav li {
         list-style: none;
         text-align: right;
@@ -386,14 +386,14 @@ footer div {
     .bodyIniciarSesion li {
         list-style: none;
     }
-        
+
     footer div {
         width: 50%;
     }
 }
 
 /*2*/
-    
+
 @media screen and (min-width: 1025px) {
 
     .bodyIniciarSesion {
@@ -509,7 +509,8 @@ footer div {
         font-weight: bold;
     }
 
-    #email:hover, #password:hover{
+    #email:hover,
+    #password:hover {
         background-color: rgba(214, 232, 243, 0.795);
         border: solid #2b2769 0.02em;
     }
@@ -549,24 +550,24 @@ footer div {
     .bodyIniciarSesion li {
         list-style: none;
     }
-        
+
     footer div {
         width: 50%;
     }
 }
-   
-    /* REGISTRO */
+
+/* REGISTRO */
 
 @media screen and (min-width: 1025px) {
-.bodyRegistro {
+    .bodyRegistro {
         background-color: #f5f5f5;
         display: flex;
-    justify-content: flex-start;
+        justify-content: flex-start;
         height: 100vh;
         width: 100vw;
     }
 
-.eduTask {
+    .eduTask {
         color: transparent;
         user-select: none;
         background-image: url('../Imagenes/EduTask.png');
@@ -576,11 +577,11 @@ footer div {
         padding-left: 4em;
     }
 
-#menuIcon {
+    #menuIcon {
         display: none;
     }
 
-.headerRegistro {
+    .headerRegistro {
         background-color: #2b2769;
         color: #fff;
         padding-left: 1em;
@@ -591,21 +592,21 @@ footer div {
         z-index: 1;
     }
 
-.headerRegistro a {
+    .headerRegistro a {
         text-decoration: none;
         color: rgb(255, 255, 255);
         font-weight: bold;
     }
 
-.headerRegistro nav {
+    .headerRegistro nav {
         margin-top: 4em;
     }
 
-.headerRegistro nav li {
+    .headerRegistro nav li {
         margin-top: 2em;
     }
 
-.headerRegistro nav li:first-child {
+    .headerRegistro nav li:first-child {
         background-image: url('../Imagenes/HomeIcon.png');
         background-size: contain;
         background-position: left;
@@ -613,7 +614,7 @@ footer div {
         padding-left: 2em;
     }
 
-.headerRegistro nav li:last-child {
+    .headerRegistro nav li:last-child {
         background-image: url('../Imagenes/LoginIcon.png');
         background-size: contain;
         background-position: left;
@@ -621,60 +622,60 @@ footer div {
         padding-left: 2em;
     }
 
-.col-2 {
+    .col-2 {
         width: 100vw;
     }
 
-.title {
+    .title {
         margin: 2em;
         font-size: 2em;
     }
 
-.main-registro {
+    .main-registro {
         margin-left: calc(22%);
     }
 
-.registrarse-form {
+    .registrarse-form {
         margin-left: 4em;
         display: flex;
         flex-direction: column;
         width: 40%;
     }
 
-.label-registro {
+    .label-registro {
         margin: 1em;
         margin-top: 2em;
         font-size: 1em;
     }
 
-.input-registro {
+    .input-registro {
         padding: 1em;
         border-radius: 0.5em;
         border: none;
         background-color: #cfd9dffb;
     }
 
-.boton-registro {
+    .boton-registro {
         margin-top: 2em;
         padding: 1em;
         border-radius: 0.5em;
         border: none;
         background-color: #333;
         color: #fff;
-    width: max-content;
+        width: max-content;
         margin-bottom: calc(25%);
-        
+
     }
 
-.col-2 .footer-registro {
+    .col-2 .footer-registro {
         position: fixed;
         bottom: 0;
-    background-color: #333;
+        background-color: #333;
         width: 100vw;
         height: calc(100vh - 92vh);
     }
 
-.footer-registro {
+    .footer-registro {
         display: flex;
         justify-content: space-around;
         align-items: center;
@@ -692,282 +693,417 @@ footer div {
         background-repeat: no-repeat;
     }
 
-.footer-registro a,
-.headerIniciarSesion a {
+    .footer-registro a,
+    .headerIniciarSesion a {
         text-decoration: none;
         color: #fff;
         font-weight: bold;
     }
 
-.footer-registro li,
-.bodyRegistro li {
+    .footer-registro li,
+    .bodyRegistro li {
         list-style: none;
     }
 }
 
 /* HOME */
-    @media screen and (min-width: 1025px) {
-        .bodyHome {
-            background-color: #f5f5f5;
-            display: flex;
-            justify-content: flex-start;
-            height: 100vh;
-            width: 100vw;
-           
-        }
-
-        .main-content {
-            flex: 1;
-            padding: 1rem;
-            overflow-y: auto;
-            margin-left: 19em;
-        }
-
-        .main-content header{
-            margin: 1em 0 3em 0em;
-        }
-        
-
-        .headerHome {
-            background-color: #2b2769;
-            color: #fff;
-            padding-left: 1em;
-            padding-right: 1em;
-            padding-top: 4em;
-            height: 100vh;
-            position: fixed;
-            z-index: 1;
-        }
-
-        .headerHome a {
-            text-decoration: none;
-            color: rgb(255, 255, 255);
-            font-weight: boldss;
-        }
-
-        .headerHome nav {
-            margin-top: 4em;
-        }
-
-        .headerHome nav li {
-            margin-top: 2em;
-        }
-
-        .headerHome nav li:first-child {
-            background-image: url('../Imagenes/HomeIcon.png');
-            background-size: contain;
-            background-position: left;
-            background-repeat: no-repeat;
-            padding-left: 2em;
-        }
-
-        .headerHome nav li:nth-child(2) {
-            background-image: url('../Imagenes/LoginIcon.png');
-            background-size: contain;
-            background-position: left;
-            background-repeat: no-repeat;
-            padding-left: 2em;
-        }
-
-        .headerHome nav li:last-child {
-            background-image: url('../Imagenes/GroupIcon.png');
-            background-size: contain;
-            background-position: left;
-            background-repeat: no-repeat;
-            padding-left: 2em;
-        }
-
-        .dashboard {
-            display: grid;
-            grid-template-areas:
-                "calendario todo materias"
-                "entregas todo grupos";
-            grid-template-columns: 33% 33% 33%;
-            grid-template-rows: 40% 40%;
-            gap: .5rem;
-        }
-
-        .calendario,
-        .todo,
-        .materias,
-        .grupos,
-        .entregas {
-            height: auto;
-            background-color: #fff;
-            padding: 1rem;
-            border-radius: .5rem;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        }
-
-        .calendario {
-            grid-area: calendario;
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-        }
-
-        .calendarioTexto {
-            text-align: center;
-        }
-
-        .calendarioImg {
-            height: 80%;
-            margin: .2rem;
-        }
-
-        .todo {
-            grid-area: todo;
-        }
-
-        .materias {
-            grid-area: materias;
-        }
-
-        .entregas {
-            grid-area: entregas;
-        }
-
-        .grupos {
-            grid-area: grupos;
-        }
-
-        .tarjetas {
-            height: 95%;
-            margin: .2rem;
-            display: flex;
-            justify-content: space-around;
-        }
-
-        .tarjeta {
-            text-align: center;
-            height: 45%;
-            width: 45%;
-            background-color: #cecccc;
-            padding: 1rem;
-            border-radius: 5px;
-            margin-bottom: 10px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        }
-    }
-
-    /* CREAR MATERIAS */
-    @media screen and (min-width: 1025px) {
-        .subtitle-crearMateria {
-            background-image: url('../Imagenes/LoginRelleno.png');
-            background-size: contain;
-            background-position: left;
-            background-repeat: no-repeat;
-            padding-left: 2em;
-        }
-
-        .form-crearMateria {
-            margin-left: 2.2em;
-            display: flex;
-            flex-direction: column;
-            width: 50%;
-        }
-       
-        .form-crearMateria label {
-            margin: 1em;
-            margin-top: 2em;
-            font-size: 1em;
-        }
-    
-        .form-crearMateria input {
-            padding: 1em;
-            border-radius: 0.5em;
-            border: none;
-            background-color: #d3d3d3;
-        }
-    
-        .form-crearMateria button {
-            margin-top: 2em;
-            padding: 1em;
-            border-radius: 0.5em;
-            border: none;
-            background-color: #333;
-            color: #fff;
-            width: 50%;
-        }
+@media screen and (min-width: 1025px) {
+    .bodyHome {
+        background-color: #f5f5f5;
+        display: flex;
+        justify-content: flex-start;
+        height: 100vh;
+        width: 100vw;
 
     }
 
-    /*MATERIA*/
-    @media screen and (min-width: 1025px) {
-    
-        }
+    .main-content {
+        flex: 1;
+        padding: 1rem;
+        overflow-y: auto;
+        margin-left: 19em;
+    }
+
+    .main-content header {
+        margin: 1em 0 3em 0em;
+    }
+
+
+    .headerHome {
+        background-color: #2b2769;
+        color: #fff;
+        padding-left: 1em;
+        padding-right: 1em;
+        padding-top: 4em;
+        height: 100vh;
+        position: fixed;
+        z-index: 1;
+    }
+
+    .headerHome a {
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        font-weight: boldss;
+    }
+
+    .headerHome nav {
+        margin-top: 4em;
+    }
+
+    .headerHome nav li {
+        margin-top: 2em;
+    }
+
+    .headerHome nav li:first-child {
+        background-image: url('../Imagenes/HomeIcon.png');
+        background-size: contain;
+        background-position: left;
+        background-repeat: no-repeat;
+        padding-left: 2em;
+    }
+
+    .headerHome nav li:nth-child(2) {
+        background-image: url('../Imagenes/LoginIcon.png');
+        background-size: contain;
+        background-position: left;
+        background-repeat: no-repeat;
+        padding-left: 2em;
+    }
+
+    .headerHome nav li:last-child {
+        background-image: url('../Imagenes/GroupIcon.png');
+        background-size: contain;
+        background-position: left;
+        background-repeat: no-repeat;
+        padding-left: 2em;
+    }
+
+    .dashboard {
+        display: grid;
+        grid-template-areas:
+            "calendario todo materias"
+            "entregas todo grupos";
+        grid-template-columns: 33% 33% 33%;
+        grid-template-rows: 40% 40%;
+        gap: .5rem;
+    }
+
+    .calendario,
+    .todo,
+    .materias,
+    .grupos,
+    .entregas {
+        height: auto;
+        background-color: #fff;
+        padding: 1rem;
+        border-radius: .5rem;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .calendario {
+        grid-area: calendario;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .calendarioTexto {
+        text-align: center;
+    }
+
+    .calendarioImg {
+        height: 80%;
+        margin: .2rem;
+    }
+
+    .todo {
+        grid-area: todo;
+    }
+
+    .materias {
+        grid-area: materias;
+    }
+
+    .entregas {
+        grid-area: entregas;
+    }
+
+    .grupos {
+        grid-area: grupos;
+    }
+
+    .tarjetas {
+        height: 95%;
+        margin: .2rem;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .tarjeta {
+        text-align: center;
+        height: 45%;
+        width: 45%;
+        background-color: #cecccc;
+        padding: 1rem;
+        border-radius: 5px;
+        margin-bottom: 10px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+}
+
+/* CREAR MATERIAS */
+@media screen and (min-width: 1025px) {
+    .subtitle-crearMateria {
+        background-image: url('../Imagenes/LoginRelleno.png');
+        background-size: contain;
+        background-position: left;
+        background-repeat: no-repeat;
+        padding-left: 2em;
+    }
+
+    .form-crearMateria {
+        margin-left: 2.2em;
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+    }
+
+    .form-crearMateria label {
+        margin: 1em;
+        margin-top: 2em;
+        font-size: 1em;
+    }
+
+    .form-crearMateria input {
+        padding: 1em;
+        border-radius: 0.5em;
+        border: none;
+        background-color: #d3d3d3;
+    }
+
+    .form-crearMateria button {
+        margin-top: 2em;
+        padding: 1em;
+        border-radius: 0.5em;
+        border: none;
+        background-color: #333;
+        color: #fff;
+        width: 50%;
+    }
+
+}
+
+/*MATERIA*/
+@media screen and (min-width: 1025px) {
+    .iconoMateriaMaterias {
+        background-image: url('../Imagenes/LoginRelleno.png');
+        background-size: contain;
+        background-position: left;
+        background-repeat: no-repeat;
+        margin-bottom: .75em;
+        padding-left: 2em;
+        margin-top: 3em;
+        font-size: 1.2em;
         
+    }
 
-    
-    /*CREAR GRUPO*/
+    .main-materias {
+        flex: 1;
+        padding: 1rem;
+        overflow-y: auto;
+        margin-left: 19em;
+    }
 
-    @media screen and (min-width: 1025px) {
-        .main-crearGrupo {
-            flex: 1;
-            padding: 1rem;
-            overflow-y: auto;
-            margin-left: calc(12%);
-        }
+    .main-materias header {
+        margin: 1em 0 0 0em;
+    }
 
-        .titulo-crearGrupo {
-            background-image: url('../Imagenes/GroupIcon.png');
-            background-size: contain;
-            background-position: left;
-            background-repeat: no-repeat;
-            padding-left: 2em;
-        }
+    .segundoHeader {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end
+    }
 
-        .main-crearGrupo header{
-            margin: 1em 0 3em 0em;
-        }
+    .segundoHeader button {
+        margin-right: 2em;
+        border-radius: 0.5em;
+        border: none;
+        background-color: rgb(201, 200, 200);
+        text-align: end;
+        padding: .8em;
+    }
 
+    .segundoHeader button a {
+        text-decoration: none;
+        color: #333;
      
-        .form-crearGrupo{
-            margin-left: 2.2em;
-            display: flex;
-            flex-direction: column;
-            width: 50%; 
-        }
+    }
 
-        .label-crearGrupo{
-            margin: 1em;
-            margin-top: 2em;
-            font-size: 1em;
-        }
+    .bodyMaterias {
+        background-color: #f5f5f5;
+        display: flex;
+        justify-content: flex-start;
+        margin-top: 2em;
+    }
 
-        .input-crearGrupo{
-            padding: 1em;
-            border-radius: 0.5em;
-            border: none;
-            background-color: #cfd9dffb;
-        }
+    .contenedorMaterias {
+        display: grid;
+        grid-template-columns: repeat(2, 16em);
+        gap: .3rem;
+        align-content: space-around;
+    }
 
-        .boton-crearGrupo{
-            margin-top: 2em;
-            margin-bottom: 6em;
-            padding: 1em;
-            border-radius: 0.5em;
-            border: none;
-            background-color: #333;
-            color: #fff;
-            width: 50%;
-        }
+    .contenedorTodoYentregas{
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(20em, 1fr));
+        gap: 1rem;
+        margin-left: 10em;
+    }
 
-        .footer-crearGrupo{
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-            position: fixed;
-            bottom: 0;
-            background-color: #333;
-            width: 100vw;
-            height: calc(100vh - 92vh);
-            margin-left: calc(12%);
+    .ToDoMaterias {
+        height: auto;
+        background-color: #fff;
+        padding: 1rem;
+        border-radius: .5rem;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .iconoToDolist {
+        background-image: url('../Imagenes/ToDolist.png');
+        background-size: contain;
+        background-position: left;
+        background-repeat: no-repeat;
+        padding-left: 2em;
+        margin-bottom: .75em;
+        font-size: 1.2em;
+    }
+
+    .entregasMaterias {
+        height: auto;
+        background-color: #fff;
+        padding: 1rem;
+        border-radius: .5rem;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .iconoEntregas {
+        background-image: url('../Imagenes/Entregas.png');
+        background-size: contain;
+        background-position: left;
+        background-repeat: no-repeat;
+        padding-left: 2em;
+        margin-bottom: .75em;
+        font-size: 1.2em;
+    }
+
+    .materia{
+        height: auto;
+        background-color: #fff;
+        padding: 1rem;
+        border-radius: .5rem;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .materia h2 {
+        margin-bottom: 1rem;
+    }
+
+    .materia p {
+        margin-bottom: 1rem;
+    }
+
+    .materia button {
+        padding: .5rem 1rem;
+        border-radius: .5rem;
+        border: none;
+        background-color: #333;
+        color: #fff;
+    }
+
+    .materia button a {
+        text-decoration: none;
+        color: #fff;
+    }
+
+    .materia button a:hover {
+        color: #333;
+
+    
+
+
+}
+
+
+
+/*CREAR GRUPO*/
+
+@media screen and (min-width: 1025px) {
+    .main-crearGrupo {
+        flex: 1;
+        padding: 1rem;
+        overflow-y: auto;
+        margin-left: calc(12%);
+    }
+
+    .titulo-crearGrupo {
+        background-image: url('../Imagenes/GroupIcon.png');
+        background-size: contain;
+        background-position: left;
+        background-repeat: no-repeat;
+        padding-left: 2em;
+    }
+
+    .main-crearGrupo header {
+        margin: 1em 0 3em 0em;
     }
 
 
-    .header-crearGrupo h1{
+    .form-crearGrupo {
+        margin-left: 2.2em;
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+    }
+
+    .label-crearGrupo {
+        margin: 1em;
+        margin-top: 2em;
+        font-size: 1em;
+    }
+
+    .input-crearGrupo {
+        padding: 1em;
+        border-radius: 0.5em;
+        border: none;
+        background-color: #cfd9dffb;
+    }
+
+    .boton-crearGrupo {
+        margin-top: 2em;
+        margin-bottom: 6em;
+        padding: 1em;
+        border-radius: 0.5em;
+        border: none;
+        background-color: #333;
+        color: #fff;
+        width: 50%;
+    }
+
+    .footer-crearGrupo {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        position: fixed;
+        bottom: 0;
+        background-color: #333;
+        width: 100vw;
+        height: calc(100vh - 92vh);
+        margin-left: calc(12%);
+    }
+
+
+    .header-crearGrupo h1 {
         margin-left: calc(13%);
     }
 
-    }
+}
