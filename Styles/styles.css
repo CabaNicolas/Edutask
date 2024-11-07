@@ -4,6 +4,7 @@
     font-family: 'Alexandria', sans-serif;
 }
 
+/*INICIAR SESION*/
 @media (min-width: 320px) and (max-width: 768px) {
     .bodyIniciarSesion {
         background-color: #f5f5f5;
@@ -394,7 +395,6 @@
     }
 }
 
-/*2*/
 
 @media screen and (min-width: 1025px) {
 
@@ -655,6 +655,11 @@
         border-radius: 0.5em;
         border: none;
         background-color: #cfd9dffb;
+    }
+
+    .input-registro:hover{
+        background-color: rgba(214, 232, 243, 0.795);
+        border: solid #2b2769 0.02em;
     }
 
     .boton-registro {
