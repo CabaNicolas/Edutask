@@ -127,14 +127,29 @@
         background-color: #cfd9dffb;
     }
 
-    .form-login button {
+    .form-login button{
         margin-top: 2em;
         padding: 1em;
         border-radius: 0.5em;
         border: none;
         background-color: #333;
-        color: #fff;
-        width: 50%;
+        color: #fff; 
+    }
+
+    button {
+        width: max-content;
+    }
+
+    button:hover{
+        background-color: #929292;
+        color: black;
+        border: none;
+    }
+
+    button:active{
+    background-color: #fff;
+    border: dotted 2px black;
+    color: black;
     }
 
     .mail p {
@@ -325,14 +340,29 @@
         background-color: #cfd9dffb;
     }
 
-    .form-login button {
-        margin-top: 3em;
+    .form-login button{
+        margin-top: 2em;
         padding: 1em;
         border-radius: 0.5em;
         border: none;
         background-color: #333;
-        color: #fff;
-        width: 50%;
+        color: #fff; 
+    }
+
+    button {
+        width: max-content;
+    }
+
+    button:hover{
+        background-color: #929292;
+        color: black;
+        border: none;
+    }
+
+    button:active{
+    background-color: #fff;
+    border: dotted 2px black;
+    color: black;
     }
 
     .mail p {
@@ -490,15 +520,29 @@
         background-color: #cfd9dffb;
     }
 
-    .form-login button {
+    .form-login button{
         margin-top: 2em;
         padding: 1em;
         border-radius: 0.5em;
         border: none;
         background-color: #333;
-        color: #fff;
+        color: #fff; 
+    }
+
+    button {
         width: max-content;
-    margin-bottom: calc(25%);
+    }
+
+    button:hover{
+        background-color: #929292;
+        color: black;
+        border: none;
+    }
+
+    button:active{
+    background-color: #fff;
+    border: dotted 2px black;
+    color: black;
     }
 
     .mail p {
