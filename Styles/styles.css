@@ -671,7 +671,18 @@
         color: #fff;
         width: max-content;
         margin-bottom: calc(25%);
+    }
 
+    .boton-registro:hover{
+        background-color: #929292;
+        color: black;
+        border: none;
+    }
+
+    .boton-registro:active{
+        background-color: #fff;
+        border: dotted 2px black;
+        color: black;
     }
 
     .col-2 .footer-registro {
