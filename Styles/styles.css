@@ -497,7 +497,8 @@
         border: none;
         background-color: #333;
         color: #fff;
-        width: 50%;
+        width: max-content;
+    margin-bottom: calc(25%);
     }
 
     .mail p {
