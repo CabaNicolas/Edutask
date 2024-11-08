@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduTask - VerMateria</title>
+    <link rel="stylesheet" href="Styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&display=swap" rel="stylesheet">
+</head>
+
+
+<body class="bodyHome">
+    <header class="headerHome">
+        <div class="menu-hamburguesa">
+            <h1 class="eduTask">EduTask</h1>
+            <input type="button" id="menuIcon" value="☰">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="home.html"><strong>Inicio</strong></a></li>
+                <li><a href="materias.html">Materias</a></li>
+                <li><a href="#">Grupos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="col-2">
+        <main class="main-materias">
+            <header>
+                <h1>¡Hola, [usuario]!</h1>
+            </header>
+            <div class="segundoHeader">
+                <span class="iconoMateriaMaterias">Materia: <strong>Programacion</strong></span>
+            </div>
+
+            <div class="bodyVerMaterias">
+                <div class="contenedorVerMaterias">
+                    <div class="contenedorDias" id="contenedorDias">
+
+                        <script>
+                            const dias = ["Lunes", "Martes", "Miercoles", "Jueves", "Viernes", "Sabado", "Domingo"];
+                            const contenedorDias = document.getElementById('contenedorDias');
+                        
+                            for (let i = 0; i <= 30; i++) {
+                                const diaDiv = document.createElement('div');
+                                diaDiv.className = 'dia';
+                                diaDiv.innerHTML = `<span>${dias[i % dias.length]}</span><h5>${i + 1}</h5>`;
+                                contenedorDias.appendChild(diaDiv);
+                            }
+                        </script>
+                    </div>
+
+                    <div class="contenedorTodoVerMaterias">
+                        <div class="ToDoVerMaterias">
+                            <h2 class="iconoToDolist">To Do</h2>
+                            <div class="ToDoMateria">
+                                <div class="ToDoMateriaHeader">
+                                    <span>Tarea matematica</span>
+                                </div>
+                            </div>
+                            <div class="ToDoMateria">
+                                <div class="ToDoMateriaHeader">
+                                    <span>Examen de español</span>
+                                </div>
+                            </div>
+                            <div class="ToDoMateria">
+                                <div class="ToDoMateriaHeader">
+                                    <span>Leer libro de historia</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+        </main>
+        <footer>
+            <div>
+                <p>EduTask</p>
+            </div>
+            <div>
+                <ul>
+                    <li><a href="#">Preguntas frecuentes</a></li>
+                    <li><a href="#">Ayuda</a></li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+</body>
+
+<script src="src/main.js"></script>
+
+
+</html>

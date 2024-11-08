@@ -1093,7 +1093,69 @@
     }
 }
 
+/*VER MATERIA*/
+@media screen and (min-width: 1025px){
+    .bodyVerMaterias {
+        background-color: #f5f5f5;
+        display: flex;
+        justify-content: flex-start;
+        margin-top: 2em;
+    }    
 
+    .contenedorVerMaterias{
+            display: grid;
+            grid-template-columns: repeat(2, 16em);
+            gap: .3rem;
+            align-content: space-around;
+            padding-bottom: 5em;
+           
+    }
+
+    .contenedorDias{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 1rem;
+        justify-content: space-between;
+        justify-items: center;
+        margin-left: 1.5em;
+    }
+    
+    .dia{
+        height: 7em;
+        width: 8em;
+        background-color: #fff;
+        padding: rem;
+        padding: 1rem;
+        border-radius: .5rem;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .dia h5{
+        padding: 1em;
+        text-align: center;
+    }
+
+    .dia span{
+        padding: 1em;
+        text-align: center;
+    }
+
+    .contenedorTodoVerMaterias{
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(20em, 1fr));
+        gap: 1rem;
+        margin-left: 22em;
+    }
+
+    .ToDoVerMaterias{
+        height: 15em;
+        background-color: #fff;
+        padding: 1rem;
+        border-radius: .5rem;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+}
 
 /*CREAR GRUPO*/
 
