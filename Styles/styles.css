@@ -846,13 +846,18 @@
     }
 
     .dashboard {
+        width: 100%;
+        height: auto;
+        margin-bottom: -10%;
         display: grid;
         grid-template-areas:
-            "calendario todo materias"
-            "entregas todo grupos";
-        grid-template-columns: 33% 33% 33%;
-        grid-template-rows: 40% 40%;
+            "calendario todo"
+            "entregas todo"
+            "materias grupos";
+        grid-template-columns: 45% 45%;
+        grid-template-rows: repeat(3, 25%);
         gap: .5rem;
+        justify-content: center;
     }
 
     .calendario,
@@ -862,7 +867,7 @@
     .entregas {
         height: auto;
         background-color: #fff;
-        padding: 1rem;
+        padding: 1.5rem;
         border-radius: .5rem;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     }
@@ -877,11 +882,14 @@
 
     .calendarioTexto {
         text-align: center;
+        margin-top: 0;
     }
 
     .calendarioImg {
-        height: 80%;
+        height: 70%;
         margin: .2rem;
+        border-radius: .5rem;
+        border: 1px solid black;
     }
 
     .todo {
@@ -969,6 +977,17 @@
         border-radius: 5px;
         margin-bottom: 10px;
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        display: flex;
+        flex-wrap: nowrap;
+        text-align: left;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+
+    .iconoTarjeta{
+        height: 2rem;
+        margin-right: .2rem;
     }
 }
 
