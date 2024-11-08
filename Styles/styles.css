@@ -458,6 +458,7 @@
         padding-left: 1em;
         padding-right: 1em;
         padding-top: 4em;
+        z-index: 1;
         height: 100vh;
     }
 
@@ -566,7 +567,8 @@
         position: fixed;
         bottom: 0;
         background-color: #333;
-        width: 100vw;
+        width: 90vw;
+        right: 0;
         height: calc(100vh - 92vh);
     }
 
@@ -734,7 +736,8 @@
         position: fixed;
         bottom: 0;
         background-color: #333;
-        width: 100vw;
+        width: 90vw;
+        right: 0;
         height: calc(100vh - 92vh);
     }
 
@@ -815,6 +818,7 @@
 
     .headerHome nav li {
         margin-top: 2em;
+        list-style: none;
     }
 
     .headerHome nav li:first-child {
@@ -868,6 +872,7 @@
         display: flex;
         justify-content: space-around;
         align-items: center;
+        flex-direction: column;
     }
 
     .calendarioTexto {
@@ -882,6 +887,59 @@
     .todo {
         grid-area: todo;
     }
+
+    
+    .tareas {
+        background-color: #f4f5f7; 
+        border-radius: 0.5em;
+        padding: 1em 1.25em;
+        box-shadow: 0 0.25em 0.5em rgba(0, 0, 0, 0.1);
+        transition: transform 0.2s, box-shadow 0.2s;
+        margin: 2% auto;
+        cursor: pointer;
+        max-width: 90%; 
+    }
+    
+    .tareas:hover {
+        transform: translateY(-0.1em);
+        box-shadow: 0 0.375em 0.75em rgba(0, 0, 0, 0.15);
+    }
+    
+    .tareas span {
+        font-size: 1rem;
+        font-weight: 500;
+        color: #333;
+        display: block;
+        padding: 0.6em 0;
+        text-align: left;
+    }
+
+    .tareasRealizadas {
+        background-color: rgba(244, 245, 247, 0.6);
+        border-radius: 0.5em;
+        padding: 1em 1.25em;
+        box-shadow: 0 0.25em 0.5em rgba(0, 0, 0, 0.05);
+        transition: transform 0.2s, box-shadow 0.2s;
+        margin: 2% auto;
+        cursor: default; 
+        max-width: 90%;
+    }
+
+    .tareasRealizadas:hover {
+        transform: none;
+        box-shadow: 0 0.25em 0.5em rgba(0, 0, 0, 0.05);
+    }
+
+    .tareasRealizadas span {
+        font-size: 1rem;
+        font-weight: 400; 
+        color: #7a7a7a; 
+        display: block;
+        padding: 0.6em 0;
+        text-align: left;
+        text-decoration: line-through;
+    }
+
 
     .materias {
         grid-area: materias;
