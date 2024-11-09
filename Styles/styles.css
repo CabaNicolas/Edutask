@@ -1288,21 +1288,124 @@
         width: 50%;
     }
 
-    .footer-crearGrupo {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        position: fixed;
-        bottom: 0;
-        background-color: #333;
-        width: 100vw;
-        height: calc(100vh - 92vh);
-        margin-left: calc(12%);
-    }
-
-
     .header-crearGrupo h1 {
         margin-left: calc(13%);
     }
 
+    /* GRUPOS */
+    @media screen and (min-width: 1025px) {
+
+        .bodyGrupos{
+            display: flex;
+            flex-direction: row;
+        }
+
+        .iconoGrupos {
+            background-image: url('../Imagenes/GroupIcon.png');
+            background-size: contain;
+            background-position: left;
+            background-repeat: no-repeat;
+            margin-bottom: .75em;
+            padding-left: 2em;
+            margin-top: 3em;
+            font-size: 1.2em;
+            
+        }
+    
+        .main-grupos {
+            flex: 1;
+            padding: 1rem;
+            overflow-y: auto;
+            margin-left: 19em;
+        }
+    
+        .main-grupos header {
+            margin: 1em 0 0 0em;
+        }
+    
+    
+        .segundoHeader button a {
+            text-decoration: none;
+            color: #333;
+         
+        }
+    
+        .bodygrupos {
+            background-color: #f5f5f5;
+            display: flex;
+            justify-content: flex-start;
+            margin-top: 2em;
+        }
+    
+        .contenedorGrupos {
+            display: grid;
+            grid-template-columns: repeat(2, 16em);
+            gap: .3rem;
+            align-content: space-around;
+            margin-right: 2em;
+            margin-top: 4em;
+        }
+    
+    
+        .ToDoGrupos {
+            height: auto;
+            background-color: #fff;
+            padding: 1rem;
+            border-radius: .5rem;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-top: calc(4em);
+        }
+    
+        .iconoToDolist {
+            background-image: url('../Imagenes/ToDolist.png');
+            background-size: contain;
+            background-position: left;
+            background-repeat: no-repeat;
+            padding-left: 2em;
+            margin-bottom: .75em;
+            font-size: 1.2em;
+        }
+    
+    
+        .grupo{
+            height: auto;
+            background-color: #fff;
+            padding: 1rem;
+            border-radius: .5rem;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            display: flex;
+           flex-direction: column;
+        }
+    
+        .grupo h2 {
+            margin-bottom: 1rem;
+        }
+    
+        .grupo p {
+            margin-bottom: 1rem;
+        }
+    
+        .grupo button {
+            padding: .5rem 1rem;
+            border-radius: .5rem;
+            border: none;
+            background-color: #333;
+            color: #fff;
+        }
+    
+        .grupo button a {
+            text-decoration: none;
+            color: #fff;
+        }
+    
+        .grupo button a:hover {
+            color: #333;
+        }
+
+        .grupoHeader{
+            display: flex;
+            flex-direction: row;
+        }
+        
+    }
 }
