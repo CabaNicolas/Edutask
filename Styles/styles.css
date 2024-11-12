@@ -1242,10 +1242,10 @@
 /*VER MATERIA*/
 @media screen and (min-width: 1025px){
     .bodyVerMaterias {
-        background-color: #f5f5f5;
+        background-color: #dde0e4;
         display: flex;
         justify-content: flex-start;
-        margin-top: 2em;
+        margin-top: 1em;
     }    
 
     .contenedorVerMaterias{
@@ -1259,7 +1259,7 @@
 
     .contenedorDias{
         display: grid;
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(7, 1fr);
         gap: 1rem;
         justify-content: space-between;
         justify-items: center;
@@ -1267,30 +1267,38 @@
     }
     
     .dia{
-        height: 7em;
-        width: 8em;
+        height: 5em;
+        width: 5em;
         background-color: #fff;
         padding: rem;
         padding: 1rem;
         border-radius: .5rem;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        
     }
-
+    .manejadorFecha{
+        margin-left: 9em;
+        margin-top: 1em ;
+    }
     .dia h5{
         padding: 1em;
         text-align: center;
     }
 
     .dia span{
-        padding: 1em;
+        font-size: x-small;
+        padding: 1em 0em;
         text-align: center;
     }
 
     .contenedorTodoVerMaterias{
         display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(20em, 1fr));
+        grid-template-columns: repeat(auto-fill, minmax(18em, 1fr));
         gap: 1rem;
-        margin-left: 25em;
+        margin-left: 28em;
     }
 
     .ToDoVerMaterias{
