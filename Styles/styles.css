@@ -847,6 +847,24 @@
         
     }
 
+    .headerHome-perfil{
+        display: flex;
+        direction: row;
+        justify-content:space-between;
+        
+    }
+    .institutoFoto{
+        display: flex;
+        direction: row;
+        margin-right: 3em;
+        align-items: center;
+        gap: 1em;
+    }
+    .imgPerfil-home{
+        width: 5em;
+        border-radius: 50%;
+
+    }
     .dashboard {
         width: 100%;
         height: auto;
@@ -996,6 +1014,14 @@
         grid-area: materias;
     }
 
+    .materiasHome{
+        text-decoration: none;
+        color: black;
+    }
+    .gruposHome{
+        text-decoration: none;
+        color: black;
+    }
     .entregas {
         grid-area: entregas;
     }
