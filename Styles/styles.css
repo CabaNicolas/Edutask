@@ -932,7 +932,7 @@
         position: relative;
         grid-area: calendario;
         display: flex;
-        justify-content: space-around;
+        justify-content: space-evenly;
         align-items: center;
         flex-direction: column;
     }
@@ -943,7 +943,7 @@
     }
 
     .calendarioImg {
-        height: 70%;
+        height: 85%;
         margin: .2rem;
         border-radius: .5rem;
         border: 1px solid black;
@@ -1024,6 +1024,14 @@
     }
     .entregas {
         grid-area: entregas;
+    }
+
+    .tituloCaja{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
     }
 
     .grupos {
