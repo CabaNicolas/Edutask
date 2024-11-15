@@ -809,7 +809,7 @@
     .headerHome a {
         text-decoration: none;
         color: rgb(255, 255, 255);
-        font-weight: boldss;
+        font-weight: bold;
     }
 
     .headerHome nav {
@@ -891,8 +891,30 @@
         background-color: #f9f9f9;
         border-radius: .5rem;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        overflow-y: scroll;
+        overflow-x: hidden;
     }
     
+    .tituloListaTareasTodo{
+        color: #333;
+    }
+
+    .listaTareas {
+        margin-left: calc(2em);
+        max-height: 100px; 
+        overflow-y: auto; 
+        margin-top: -1%;
+    }
+    
+    .tareas, .tareasRealizadas {
+        padding: 8px;
+        border-bottom: 1px solid #ddd;
+    }
+    
+    .tareasRealizadas:last-child {
+        border-bottom: none;
+    }
+
     .anotadorImg {
         max-width: 100%; 
         max-height: 100%; 
@@ -905,6 +927,8 @@
     
     .tituloToDo{
         color: #333;
+        font-weight: bold;
+        
     }
       
       .anotacionesToDo {
@@ -1032,6 +1056,7 @@
         justify-content: center;
         align-content: center;
         align-items: center;
+        padding-bottom: calc(2em);
     }
 
     .grupos {
@@ -1386,6 +1411,8 @@
     .bodyGrupos{
         display: flex;
         flex-direction: row;
+        margin-bottom: calc(6em);
+        margin-left: calc(2em);
     }
 
     .iconoGrupos {
@@ -1432,17 +1459,9 @@
         align-content: space-around;
         margin-right: 2em;
         margin-top: 4em;
+        margin-bottom: calc(8em);
     }
 
-
-    .ToDoGrupos {
-        height: auto;
-        background-color: #fff;
-        padding: 1rem;
-        border-radius: .5rem;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        margin-top: calc(4em);
-    }
 
     .iconoToDolist {
         background-image: url('../Imagenes/ToDolist.png');
@@ -1494,6 +1513,50 @@
         display: flex;
         flex-direction: row;
     }
+
+    .todoGrupos{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        overflow: hidden;
+        background-color: #f9f9f9;
+        border-radius: .5rem;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        width: 35%;
+        height: 35%;
+        margin-top: calc(4em);
+    }
+
+    .tituloToDoGrupos{
+        color: #333;
+    }
+      
+      .anotacionesToDoGrupos {
+        position: absolute;
+        top: 55%;
+        left: 55%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        width: 80%;
+        color: white;
+      }
+
+      .listaTareasGrupos {
+        max-height: 100px; 
+        overflow-y: auto; 
+    }
+
+    .tituloCajaGrupo{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        padding-bottom: calc(2em);
+        margin-right: calc(3em);
+    }
+
     
 }
 
