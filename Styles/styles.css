@@ -4,6 +4,11 @@
     font-family: 'Alexandria', sans-serif;
 }
 
+html, body {
+    width: 100%;
+    overflow-x: hidden; /* Oculta el scroll horizontal */
+}
+
 /*INICIAR SESION*/
 @media (min-width: 320px) and (max-width: 768px) {
     .bodyIniciarSesion {
