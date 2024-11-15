@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -41,15 +41,15 @@
             </div>
 
             <div>
-                
+
             </div>
 
             <div class="cargarArchivos">
                 <span class="cargar">Cargar:</span>
-                    <button type="button" class="btn btn-primary botonCargarArchivo">PDF</button>
-                    <button type="button" class="btn btn-primary botonCargarArchivo">WORD</button>
-                    <button type="button" class="btn btn-primary botonCargarArchivo">NOTA</button>
-                    <button type="button" class="btn btn-primary botonCargarArchivo">IMAGEN</button>
+                <button type="button" class="btn btn-primary botonCargarArchivo" id="botonPDF">PDF</button>
+                <button type="button" class="btn btn-primary botonCargarArchivo" id="botonWord">WORD</button>
+                <button type="button" class="btn btn-primary botonCargarArchivo" id="botonNota">NOTA</button>
+                <button type="button" class="btn btn-primary botonCargarArchivo" id="botonImagen">IMAGEN</button>
             </div>
 
             <div class="archivosCargados">
@@ -57,25 +57,52 @@
                     Hoy
                 </span>
                 <div class="archivo1">
-                    <button type="button" class="btn btn-primary botonArchivoCargado"> <span class="iconoArchivo1">Apunte matemática</span></button>
+                    <button type="button" class="btn btn-primary botonArchivoCargado"> <span
+                            class="iconoArchivo1">Apunte matemática</span></button>
                 </div>
                 <div class="archivo1">
-                    <button type="button" class="btn btn-primary botonArchivoCargado"> <span class="iconoArchivo2">Imagen apunte filosofía</span></button>
+                    <button type="button" class="btn btn-primary botonArchivoCargado"> <span
+                            class="iconoArchivo2">Imagen apunte filosofía</span></button>
                 </div>
                 <span class="hoy">
                     Semana Pasada
                 </span>
                 <div class="archivo1">
-                    <button type="button" class="btn btn-primary botonArchivoCargado"> <span class="iconoArchivo3">Word seguridad y calidad de apps</span></button>
+                    <button type="button" class="btn btn-primary botonArchivoCargado"> <span class="iconoArchivo3">Word
+                            seguridad y calidad de apps</span></button>
                 </div>
                 <div class="archivo1">
-                    <button type="button" class="btn btn-primary botonArchivoCargado"> <span class="iconoArchivo1">Apunte programación</span></button>
+                    <button type="button" class="btn btn-primary botonArchivoCargado"> <span
+                            class="iconoArchivo1">Apunte programación</span></button>
                 </div>
                 <div class="archivo1">
-                    <button type="button" class="btn btn-primary botonArchivoCargado"> <span class="iconoArchivo2">Imagen historia criptográfica</span></button>
+                    <button type="button" class="btn btn-primary botonArchivoCargado"> <span
+                            class="iconoArchivo2">Imagen historia criptográfica</span></button>
                 </div>
             </div>
 
+            <!-- Pop-up de subir archivos -->
+            <div class="popUp ocultar" id="subirArchivosDiv">
+                <span class="cerrar" id="cerrarArchivo">X</span>
+                <form action="#">
+                    <div class="dropzone" id="dropzone">
+                        <p>Arrastra tus archivos aquí o haz clic para subirlos</p>
+                        <input type="file" id="fileInput" multiple style="display: none;">
+                    </div>
+                    <ul id="fileList"></ul>
+                    
+                    <button type="submit" id="botonSubir" class="botonPopUp">Subir</button>
+                </form>
+            </div>
+
+            <!-- Pop-up de subir notas -->
+            <div class="popUp ocultar" id="subirNotasDiv">
+                <span class="cerrar" id="cerrarNota">X</span>
+                <form action="#">
+                    <textarea name="nota" id="nota" cols="30" rows="3" placeholder="Escribe tu nota aquí"></textarea>
+                    <button type="submit" id="botonSubirNota" class="botonPopUp">Subir Nota</button>
+                </form>
+            </div>
         </main>
         <footer>
             <div>
@@ -90,6 +117,7 @@
 </body>
 
 <script src="src/main.js"></script>
-
+<script src="src/popUp.js"></script>
+<script src="src/arrastrarArchivos.js"></script>
 
 </html>
