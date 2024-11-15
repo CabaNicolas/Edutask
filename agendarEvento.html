@@ -40,7 +40,7 @@
                 <div class="calendario">
                     
                     <div class="calendarioTexto">
-                        <a href="agendarEvento.html" class="fechaCalendario-home"><p>Noviembre <strong>2</strong></p></a>
+                        <p>Noviembre <strong>2</strong></p>
                     </div>
                     
                     <img src="Imagenes/calendario.jpg" alt="calendario" class="calendarioImg">
@@ -51,30 +51,18 @@
                     <div class="anotacionesToDo">
                         <div class="tituloCaja">
                             <img src="Imagenes/lapiz.png" alt="ícono lapiz" class="iconoTarjeta">
-                            <span class="tituloToDo">To Do</span>
+                            <h4 class="tituloToDo">To Do</h4>
                         </div>
-                     
-                        <div class="listaTareas">
-                            <br>
-                            <h2 class="tituloListaTareasTodo">Noviembre</h2>
+                        <div>
                             <div class="tareas">
-                                <span for="tarea1">Semana 2: Parcial de Diseño y aplicaciones web</span>
-                            </div>
-                            <div class="tareas">
-                                <span for="tarea1">Semana 3: Entrega del TP final de VEI</span>
-                            </div>
-                            <div class="tareas">
-                                <span for="tarea1">Semana 4: Exposicion de Programacion WEB</span>
-                            
+                                <span for="tarea1">Hacer wireframe(vei)/13-11</span>
                             </div>
                             <div class="tareasRealizadas">
-                                <span for="tarea2">Entrega del TP POKEDEX</span>
+                                <span for="tarea2">Hacer tarea(inglés)/07-11</span>
                             </div>
-                        
                         </div>
                     </div>
                 </div>
-                
 
                 <div class="materias">
                     <h4><a href="materias.html" class="materiasHome">Materias</a></h4>
@@ -112,6 +100,37 @@
                             <img src="Imagenes/consulta.png" alt="ícono lapiz" class="iconoTarjeta">
                             Consultas generales vei
                         </div>
+                    </div>
+                </div>
+
+                <div class="formulario-evento">
+                    <div class="form-container">
+                        <form>
+                            <h3 class="titulo-evento-ppal">Agregar evento o recordatorio</h3>
+                            <br>
+                            <h4 class="titulo-evento">Título: </h4>
+                            <input type="text" id="name" name="name" class="evento-input">
+                            <br>
+                            <div class="botones">
+                                <label class="opcion">
+                                    <input type="radio" name="opcion" value="opcion1"> Entrega
+                                </label>
+                                <label class="opcion opcion-examen">
+                                    <input type="radio" name="opcion" value="opcion2" > Exámen
+                                </label>
+                                <label class="opcion">
+                                    <input type="radio" name="opcion" value="opcion3"> ToDo
+                                </label>
+                            </div>
+                            <br><br>
+                            <label for="datetime">Fecha y hora:</label>
+                            <input type="datetime-local" id="datetime" name="datetime" >
+                            <br><br>
+                            <div class="fin-button">
+                            <button  type="submit" class="evento-button"><a href="home.html">Guardar</a></button>
+                            <button type="button" class="evento-button">Borrar</button>
+                            </div>
+                        </form>
                     </div>
                 </div>
             </section>
