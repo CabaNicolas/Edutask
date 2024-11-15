@@ -174,10 +174,16 @@
 
     footer {
         display: flex;
-        flex-direction: column;
         justify-content: space-around;
         align-items: center;
-       
+    }
+
+    .footerLinks{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        flex-wrap: nowrap;
     }
 
     footer p {
