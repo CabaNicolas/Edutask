@@ -576,6 +576,11 @@
         align-items: center;
     }
 
+    .footerLinks{
+        display: flex;
+        justify-content: space-around;
+    }
+
     footer p {
         display: block;
         color: transparent;
