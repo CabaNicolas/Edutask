@@ -1769,10 +1769,61 @@
 
     .cargarArchivos{
         margin-top: 2em;
-        margin-left: 2.6em;
+        margin-left: 6em;
     }
 
     .cargar{
+        font-size: 1.2em;
+    }
+
+    .hoy{
+        margin-left: 2.8em;
+        margin-top: 2em;
+    }
+
+    .archivosCargados{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 3.5em;
+    }
+
+    .botonArchivoCargado{
+        margin-left: 2.5em;
+        margin-top: 1.5em;
+        background-color: #c9c4c4 !important;
+        padding: 1em 15em 1em 1em;
+    }
+
+    .iconoArchivo1{
+        background-image: url('../Imagenes/pdfIcon.png');
+        background-size: contain;
+        background-position: left;
+        background-repeat: no-repeat;
+        margin-bottom: .75em;
+        padding-left: 2em;
+        margin-top: 3em;
+        font-size: 1.2em;
+    }
+
+    .iconoArchivo2{
+        background-image: url('../Imagenes/img.png');
+        background-size: contain;
+        background-position: left;
+        background-repeat: no-repeat;
+        margin-bottom: .75em;
+        padding-left: 2em;
+        margin-top: 3em;
+        font-size: 1.2em;
+    }
+
+    .iconoArchivo3{
+        background-image: url('../Imagenes/word.png');
+        background-size: contain;
+        background-position: left;
+        background-repeat: no-repeat;
+        margin-bottom: .75em;
+        padding-left: 2em;
+        margin-top: 3em;
         font-size: 1.2em;
     }
 
