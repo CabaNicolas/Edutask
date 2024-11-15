@@ -875,7 +875,7 @@
             "entregas todo"
             "materias grupos";
         grid-template-columns: 45% 45%;
-        grid-template-rows: repeat(3, 25%);
+        grid-template-rows: 37.5% 25% 25%;
         gap: .5rem;
         justify-content: center;
     }
@@ -901,9 +901,10 @@
 
     .listaTareas {
         margin-left: calc(2em);
-        max-height: 100px; 
+        max-height: 70%; 
         overflow-y: auto; 
         margin-top: -1%;
+        margin-right: 10%;
     }
     
     .tareas, .tareasRealizadas {
@@ -938,6 +939,7 @@
         transform: translate(-50%, -50%);
         text-align: center;
         width: 80%;
+        height: 70%;
         color: white;
       }
       
@@ -951,6 +953,7 @@
         border-radius: .5rem;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     }
+    
 
     .calendario {
         position: relative;
@@ -1056,7 +1059,7 @@
         justify-content: center;
         align-content: center;
         align-items: center;
-        padding-bottom: calc(2em);
+        padding-bottom: calc(1.5em);
     }
 
     .grupos {
@@ -1085,6 +1088,7 @@
         justify-content: center;
         align-content: center;
         align-items: center;
+        margin-top: 1em;
     }
 
     .iconoTarjeta{
@@ -1656,7 +1660,7 @@
     }
 
 /* AGREGAR EVENTO */
-
+@media screen and (min-width: 1025px) {
 .fechaCalendario-home{
     color: #333;
 }
@@ -1722,4 +1726,5 @@ input[type="datetime-local"] {
     color: white;
     cursor: pointer;
     border-radius: 0.7em;
+}
 }
