@@ -1813,7 +1813,7 @@ html, body {
     }
 
     #subirNotasDiv{
-        height: 25rem;
+        height: 26rem;
         width: 25rem;
         padding: 2.5rem;
     }
@@ -1861,4 +1861,8 @@ html, body {
         background: #f9f9f9;
     }
     
+    .semanaArchivo{
+        border-radius: 0.5em;
+        background-color: #cfd9dffb;
+    }
 }
