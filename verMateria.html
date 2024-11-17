@@ -44,10 +44,13 @@
 
 
             <div>
-                <h2 class="manejadorFecha">
-                    < Noviembre>
-                        < 2024>
-                </h2>
+                <div class="calendarioTexto manejadorFecha">
+                    <img src="Imagenes/arrowLeftMateria.png" alt="flecha izquierda" class="flechasCalendario ">
+                    <a href="agendarEvento.html" class="fechaCalendario-home"><h3>Noviembre</h3></a>
+                    <img src="Imagenes/arrowRigthMateria.png" alt="flecha derecha" class="flechasCalendario ">
+                    <h3 class="anioCalendario">2024</h3>
+                </div>
+                
             </div>
             <div class="bodyVerMaterias">
                 <div class="contenedorVerMaterias">
@@ -67,27 +70,32 @@
                     </div>
 
                     <div class="contenedorTodoVerMaterias">
+                        <img src="Imagenes/imgToDo.png" alt="anotador" class="anotadorImgMateria">
                         <div class="ToDoVerMaterias">
                             <h2 class="iconoToDolist">To Do</h2>
-                            <div class="ToDoMateria">
-                                <div class="ToDoMateriaHeader">
-                                    <span>Tarea matematica</span>
+                            <h3 class="tituloListaTareasTodo">Noviembre</h3>
+                            <div class="listaTareasMateria">
+                                <div class="tareas">
+                                    <span for="tarea1">Semana 1: Leer los apuntes de AJAX</span>
                                 </div>
-                            </div>
-                            <div class="ToDoMateria">
-                                <div class="ToDoMateriaHeader">
-                                    <span>Examen de español</span>
+                                <div class="tareas">
+                                    <span for="tarea1">Semana 2: Realizar ejercicios guía</span>
                                 </div>
-                            </div>
-                            <div class="ToDoMateria">
-                                <div class="ToDoMateriaHeader">
-                                    <span>Leer libro de historia</span>
+                                <div class="tareas">
+                                    <span for="tarea1">Semana 3: Terminar tp Final</span>
+                                </div>
+                                <div class="tareas">
+                                    <span for="tarea1">Semana 4: Repasar código para </span>
+                                
+                                </div>
+                                <div class="tareasRealizadas">
+                                    <span for="tarea2">Terminar TP POKEDEX</span>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="botonMisApuntes">
-                        <button type="button" class="btn btn-primary"><a href="misApuntes.html">Mis apuntes</a></button>
+                        <button type="button" class="btn btn-primary botonMisApuntes"><a href="misApuntes.html">Mis apuntes</a></button>
                     </div>
                 </div>
         </main>

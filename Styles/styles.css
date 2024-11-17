@@ -861,13 +861,14 @@ html, body {
         display: flex;
         flex-direction: row;
         align-items: center;
-        gap: 0.8em;
+        gap: 0.6em;
     }
     .flechasCalendario{
         height: 1.5em;
     }
     .anioCalendario{
         color: #333;
+        margin-left: 1em;
     }
     .todo {
         display: flex;
@@ -880,19 +881,19 @@ html, body {
         background-color: #f9f9f9;
         border-radius: .5rem;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        
         overflow-x: hidden;
     }
 
     .tituloListaTareasTodo {
         color: #333;
+
     }
 
     .listaTareas {
-        margin-left: calc(2em);
-        max-height: 70%; 
+        margin-left: 0;
+        max-height: 62%; 
         overflow-y: auto; 
-        margin-top: -1%;
+        margin-top: 3%;
         margin-right: 10%;
 
     }
@@ -984,7 +985,7 @@ html, body {
         background-color: transparent; 
         border-radius: 0.5em;
         padding: 1em 1.25em;
-        box-shadow: 0 0.25em 0.5em rgba(0, 0, 0, 0.1);
+        
         transition: transform 0.2s, box-shadow 0.2s;
         /*margin: 0.5% auto;*/
         margin:0.5% 0% 0.5% 22% ;
@@ -994,10 +995,7 @@ html, body {
 
     }
     
-    .tareas:hover {
-        transform: translateY(-0.1em);
-        box-shadow: 0 0.375em 0.75em rgba(0, 0, 0, 0.15);
-    }
+    
     
     .tareas span {
         font-size: 1rem;
@@ -1349,8 +1347,8 @@ html, body {
     }
     
     .dia{
-        height: 5em;
-        width: 5em;
+        height: 4.5em;
+        width: 4.5em;
         background-color: #fff;
         padding: rem;
         padding: 1rem;
@@ -1361,9 +1359,13 @@ html, body {
         flex-direction: column;
         
     }
+   
     .manejadorFecha{
-        margin-left: 9em;
-        margin-top: 1em ;
+        margin-left: 18%;
+        margin-top: 3em ;
+    }
+    .flechasCalendarioMateria{
+        background-color:#dde0e4 ;
     }
     .dia h5{
         padding: 1em;
@@ -1375,22 +1377,43 @@ html, body {
         padding: 1em 0em;
         text-align: center;
     }
-
+    
     .contenedorTodoVerMaterias{
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(18em, 1fr));
-        gap: 1rem;
-        margin-left: 28em;
+        position: relative; 
+        width: 24em; 
+        height: auto; 
+        margin-left: 25em;
+        
     }
-
-    .ToDoVerMaterias{
-        height: 15em;
-        background-color: #fff;
-        padding: 1rem;
+    .anotadorImgMateria {
+        width: 100%; 
+        height: auto; 
         border-radius: .5rem;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     }
-
+    .ToDoVerMaterias{
+        position: absolute; 
+        top: -6%; 
+        left: 4%; 
+        width: 80%; 
+        height: 100%; 
+        background-color: transparent; 
+        padding: 1rem;
+        display: flex; 
+        flex-direction: column; 
+        justify-content: center;
+        align-items: center; 
+        text-align: center; 
+        overflow: hidden;
+    }
+    .listaTareasMateria{
+        max-height: 55%;
+        overflow-y: auto;
+    }
+    .botonMisApuntes {
+        margin: 1em 0 1em 0.9em;
+    }
+    
 }
 
 /*CREAR GRUPO*/
@@ -1513,7 +1536,7 @@ html, body {
 
 
     .iconoToDolist {
-        background-image: url('../Imagenes/ToDolist.png');
+        background-image: url('../Imagenes/lapiz.png');
         background-size: contain;
         background-position: left;
         background-repeat: no-repeat;
