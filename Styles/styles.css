@@ -9,7 +9,7 @@ html, body {
     overflow-x: hidden; /* Oculta el scroll horizontal */
 }
 
-/*INICIAR SESION*/
+/*INICIAR SESION*/ /* de aca borre toda etiqueta de footer*/
 @media (min-width: 320px) and (max-width: 768px) {
     .bodyIniciarSesion {
         background-color: #f5f5f5;
@@ -168,7 +168,7 @@ html, body {
         font-weight: bold;
     }
 
-    .col-2 footer {
+    .col-2 {
         position: fixed;
         bottom: 0;
         background-color: #333;
@@ -177,13 +177,13 @@ html, body {
         margin-left: 2em;
     }
 
-    footer {
+    .tituloFooterr {
         display: flex;
         justify-content: space-around;
         align-items: center;
     }
 
-    footer p {
+    .tituloFooter {
         display: block;
         color: transparent;
         user-select: none;
@@ -193,29 +193,20 @@ html, body {
         background-repeat: no-repeat;
     }
 
-    footer a {
+    .enlasesFooter-a- {
         text-decoration: none;
         color: #fff;
         font-weight: bold;
         font-size: 0.7em;
     }
 
-    footer ul {
-        padding: 0;
-        text-align: center;
-    }
-
-    footer li,
-    .bodyIniciarSesion li {
+    .bodyIniciarSesion {
         list-style: none;
     }
 
-    footer div {
-        width: 50%;
-    }
 }
 
-/*1*/
+
 @media (min-width: 769px) and (max-width: 1024px) {
 
     .bodyIniciarSesion {
@@ -388,44 +379,12 @@ html, body {
         height: calc(100vh - 92vh);
     }
 
-    footer {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
-    }
-
-    footer p {
-        display: block;
-        color: transparent;
-        user-select: none;
-        background-image: url('../Imagenes/EduTaskFooter.png');
-        background-size: contain;
-        background-position: center;
-        background-repeat: no-repeat;
-        font-size: 1.5em;
-    }
-
-    footer a {
-        text-decoration: none;
-        color: #fff;
-        font-weight: bold;
-        font-size: 1.3em;
-    }
-
-    footer ul {
-        padding: 0;
-        text-align: center;
-    }
-
-    footer li,
-    .bodyIniciarSesion li {
+  
+    
+    .bodyIniciarSesion {
         list-style: none;
     }
 
-    footer div {
-        width: 50%;
-    }
 }
 
 
@@ -572,45 +531,49 @@ html, body {
         background-color: #333;
         width: 90vw;
         right: 0;
-        height: calc(100vh - 92vh);
+        height: calc(100vh - 87vh);
     }
 
-    footer {
+
+    .footer {
         display: flex;
         justify-content: space-around;
         align-items: center;
     }
 
+   
+
+    .footer {
+        display: flex;
+        flex-direction: row;
+        color: transparent;
+       
+    }
     .footerLinks{
         display: flex;
-        justify-content: space-around;
+        width: 30%;
+        justify-content: space-between;
     }
 
-    footer p {
-        display: block;
-        color: transparent;
-        user-select: none;
-        background-image: url('../Imagenes/EduTaskFooter.png');
-        background-size: contain;
-        background-position: center;
-        background-repeat: no-repeat;
+    .imagenFooter{
+        display: flex;
+        align-items: center;
+        height: 1.3em;
+    
     }
-
-    footer a,
-    .headerIniciarSesion a {
+    
+    .headerIniciarSesion{
         text-decoration: none;
         color: #fff;
         font-weight: bold;
     }
 
-    footer li,
+    
     .bodyIniciarSesion li {
         list-style: none;
     }
 
-    footer div {
-        width: 50%;
-    }
+    
 }
 
 /* REGISTRO */
