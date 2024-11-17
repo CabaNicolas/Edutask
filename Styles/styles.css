@@ -1156,7 +1156,7 @@ html, body {
 
 }
 
-/*MATERIA*/
+/*MATERIAS*/
 @media screen and (min-width: 1025px) {
     .iconoMateriaMaterias {
         background-image: url('../Imagenes/LoginRelleno.png');
@@ -1183,8 +1183,9 @@ html, body {
 
     .segundoHeader {
         display: flex;
+        align-items: center;
         justify-content: space-between;
-        align-items: flex-end
+        gap: 2em;
     }
 
     .segundoHeader button {
@@ -1193,21 +1194,23 @@ html, body {
         border: none;
         background-color: rgb(201, 200, 200);
         text-align: end;
-        padding: .8em;
+        padding: .6em;
     }
 
-    .segundoHeader button a {
+    .segundoHeader {
         text-decoration: none;
         color: #333;
-     
+        height: 3em;
     }
-
+    .botonCrearMateria{
+        margin-bottom: -3em;
+    }
     .bodyMaterias {
         background-color: #dde0e4;
         display: flex;
         justify-content: flex-start;
-        margin-top: 2em;
         margin-bottom: calc(8em);
+        padding-top: 0.2em;
     }
 
     .contenedorMaterias {
@@ -1217,14 +1220,27 @@ html, body {
         align-content: space-around;
         margin-left: 2em;
         margin-bottom: calc(4em);
-        margin-top: calc(4em);
+        margin-top: 2em;
     }
-
+    .tituloCajaMateria{
+        font-size: 1.5em;
+    }
+    .materiaHeader{
+        margin-bottom: 1.5em;
+    }
+    #btnVerMateria{
+        display: flex;
+        justify-content: center;
+    }
+    .textoBodyCaja{
+        margin-bottom: 1em;;
+    }
     .contenedorTodoYentregas{
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(20em, 1fr));
         gap: 1rem;
         margin-left: 1em;
+        margin-top: -2em;
     }
 
     .ToDoMaterias {
@@ -1256,7 +1272,7 @@ html, body {
     }
 
     .iconoEntregas {
-        background-image: url('../Imagenes/Entregas.png');
+        background-image: url('../Imagenes/campana.png');
         background-size: contain;
         background-position: left;
         background-repeat: no-repeat;
@@ -1274,22 +1290,13 @@ html, body {
         margin-left: calc(1em);
         margin-bottom: calc(1em);
     }
-
-     h2 {
-        margin-bottom: 1rem;
-    }
-
-     p {
-        margin-bottom: 1rem;
-    }
-
      button {
         padding: .4rem .8rem;
         border-radius: .5rem;
         border: none;
         background-color: #333;
     }
-
+    
     a {
         text-decoration: none;
         color: #fff;
