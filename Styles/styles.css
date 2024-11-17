@@ -822,6 +822,7 @@ html, body {
         display: flex;
         direction: row;
         justify-content: space-between;
+        align-items: center;
 
     }
 
@@ -834,11 +835,14 @@ html, body {
     }
 
     .imgPerfil-home {
-        width: 5em;
+        width: 4em;
         border-radius: 50%;
 
     }
-
+    .botonCerrarSesion{
+        color: #333;
+        font-size: small;
+    }
     .dashboard {
         width: 100%;
         height: auto;
