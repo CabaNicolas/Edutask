@@ -1866,3 +1866,72 @@ html, body {
         background-color: #cfd9dffb;
     }
 }
+
+/* AGREGAR EVENTO */
+
+@media screen and (min-width: 1025px) {
+    .fechaCalendario-home{
+        color: #333;
+    }
+    .formulario-evento {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5); 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 1000; 
+    }
+    .evento-input{
+        padding: 0.7em;
+        border-radius: 0.5em;
+        border: none;
+        background-color: #cfd9dffb;
+    }
+    .opcion-examen{
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+    input[type="datetime-local"] {
+        padding: 0.7em;
+        border-radius: 0.5em;
+        border: none;
+        background-color: #cfd9dffb;
+    }
+    .form-container {
+        background-color: white;
+        padding: 1.5em;
+        border-radius: 4%;
+        width: 25%;
+        
+    }
+    .form-container .titulo-evento {
+        text-align: left;
+        
+    }
+    .form-container .evento-label,
+    .form-container .evento-input
+     {
+        display: block;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .fin-button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        gap: 2em;
+    }
+    .evento-button {
+        padding: 10px;
+        border: none;
+        background-color: #333;
+        color: white;
+        cursor: pointer;
+        border-radius: 0.7em;
+    }
+    }
