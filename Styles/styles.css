@@ -794,7 +794,7 @@ html, body {
     .main-content {
         flex: 1;
         padding: 1rem;
-        overflow-y: auto;
+
         margin-left: 19em;
     }
 
@@ -886,11 +886,22 @@ html, body {
             "entregas todo"
             "materias grupos";
         grid-template-columns: 45% 45%;
-        grid-template-rows: repeat(3, 25%);
+        grid-template-rows: 37.5% 25% 25%;
         gap: .5rem;
         justify-content: center;
     }
-
+    .calendarioTexto{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 0.8em;
+    }
+    .flechasCalendario{
+        height: 1.5em;
+    }
+    .anioCalendario{
+        color: #333;
+    }
     .todo {
         display: flex;
         justify-content: center;
@@ -902,7 +913,7 @@ html, body {
         background-color: #f9f9f9;
         border-radius: .5rem;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        overflow-y: scroll;
+        
         overflow-x: hidden;
     }
 
@@ -912,9 +923,11 @@ html, body {
 
     .listaTareas {
         margin-left: calc(2em);
-        max-height: 100px; 
+        max-height: 70%; 
         overflow-y: auto; 
         margin-top: -1%;
+        margin-right: 10%;
+
     }
     
     .tareas, .tareasRealizadas {
@@ -935,10 +948,15 @@ html, body {
         border-radius: .5rem;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     }
+    .iconoToDo{
+        margin-top: 1.5em;
+    }
     
     .tituloToDo {
         color: #333;
         font-weight: bold;
+        margin-top: 1.5em;
+        margin-bottom: 0;
 
     }
 
@@ -949,6 +967,7 @@ html, body {
         transform: translate(-50%, -50%);
         text-align: center;
         width: 80%;
+        height: 70%;
         color: white;
       }
       
@@ -1064,6 +1083,16 @@ html, body {
     .entregas {
         grid-area: entregas;
     }
+    .listaEntregasExamenes{
+        height: 70%;
+        overflow: auto;
+    }
+    .tituloSemana{
+        margin-bottom: 0;
+    }
+    .listaSemanal{
+        margin-bottom: 0.7em;
+    }
 
     .tituloCaja{
         display: flex;
@@ -1071,7 +1100,8 @@ html, body {
         justify-content: center;
         align-content: center;
         align-items: center;
-        padding-bottom: calc(2em);
+        padding-bottom: calc(1.5em);
+
     }
 
     .grupos {
@@ -1105,13 +1135,17 @@ html, body {
         justify-content: center;
         align-content: center;
         align-items: center;
+        margin-top: 1em;
+
     }
 
     .iconoTarjeta{
         height: 2rem;
         margin-right: .2rem;
     }
+ 
 }
+
 
 /* CREAR MATERIAS */
 @media screen and (min-width: 1025px) {
