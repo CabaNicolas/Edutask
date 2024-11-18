@@ -1759,13 +1759,17 @@ html, body {
         padding: 1em;
         border-radius: 0.5em;
         border: none;
-        background-color: #cfd9dffb;
+        background-color: #333;
         text-decoration: none;
-        color: #333;
+        color: #f5f5f5;
         margin-right: calc(20em);
         margin-top: 2em;
         width: 7em;
-
+        font-size: 0.8em;
+    }
+    .boton-añadirIntegrante:hover{
+        background-color: #929292;
+        color: black;
     }
 
     .crearPublicacion{
@@ -1780,7 +1784,7 @@ html, body {
         padding: 1em;
         border-radius: 0.5em;
         border: none;
-        background-color: #cfd9dffb;
+        background-color: #f5f5f5;
         background-image: url('../Imagenes/adjunto-archivo.png');
         background-size: 1.5em;
         background-position-x: calc(100% - 0.5em);
@@ -1788,7 +1792,7 @@ html, body {
         height: calc(8em);
         width: calc(49em);
         background-repeat: no-repeat;
-    
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     }
 
     .boton-publicar{
@@ -1801,9 +1805,9 @@ html, body {
     }
 
     .boton-publicar-{
-        background-color: #cfd9dffb;
+        background-color: #333;
         text-decoration: none;
-        color: #333;
+        color: #f5f5f5;
         padding: 1em;
         border-radius: 0.5em;
     }
@@ -1815,10 +1819,11 @@ html, body {
         padding: 1em;
         border-radius: 0.5em;
         border: none;
-        background-color: #cfd9dffb;
+        background-color: #f5f5f5;
         margin-left: calc(8em); 
         display: flex;
         flex-direction: row;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     }
 
     .contenedor-comentarios{
@@ -1832,7 +1837,7 @@ html, body {
     }
 
     .icono-grupo{
-        background-image: url('../Imagenes/grupo.png');
+        /*background-image: url('../Imagenes/grupo.png');*/
             background-size: contain;
             background-position: 100%;
             width: calc(10em);
