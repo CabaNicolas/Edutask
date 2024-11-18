@@ -1152,6 +1152,19 @@ html, body {
         width: 50%;
     }
 
+    .descripcion{
+        padding: 1em;
+        border-radius: 0.5em;
+        border: none;
+        background-color: #cfd9dffb;
+        background-image: url('../Imagenes/sonrisa-mas.png');
+        background-size: 2em;
+        background-position-x: right;
+        background-position-y:bottom;
+        background-repeat: no-repeat;
+
+    }
+
 }
 
 /*MATERIAS*/
@@ -1427,8 +1440,8 @@ html, body {
     }
 
     .titulo-crearGrupo {
-        background-image: url('../Imagenes/GroupIcon.png');
-        background-size: contain;
+        background-image: url('../Imagenes/grupos2.png');
+        background-size: 1.3em;
         background-position: left;
         background-repeat: no-repeat;
         padding-left: 2em;
@@ -1452,7 +1465,19 @@ html, body {
         font-size: 1em;
     }
 
-    .input-crearGrupo {
+    .input-crearGrupoo {
+        padding: 1em;
+        border-radius: 0.5em;
+        border: none;
+        background-color: #cfd9dffb;
+        background-image: url('../Imagenes/sonrisa-mas.png');
+        background-size: 2em;
+        background-position-x: right;
+        background-position-y:bottom;
+        background-repeat: no-repeat;
+    }
+
+     .input-crearGrupo {
         padding: 1em;
         border-radius: 0.5em;
         border: none;
@@ -1474,6 +1499,34 @@ html, body {
         margin-left: calc(13%);
     }
 
+    .institutoFotoCrear{
+        display: flex;
+        direction: row;
+        margin-left:60em;
+        align-items: center;
+        gap: 1em;
+        margin-top: -2em;
+    }
+
+    .sugerenciasFoto{
+        width: 10em;
+        border-radius: 5%;
+        margin-left: 105%;
+    }
+
+    .sugerencias{
+        width: 10em;
+        margin-left: 72%;
+        margin-top: -33%;
+    }
+
+    .sugerencias-palabra{
+        margin-left: 107%;
+       font-size: small;
+       margin-bottom: 1%;
+    }
+    
+
     
 }
 
@@ -1488,7 +1541,7 @@ html, body {
     }
 
     .iconoGrupos {
-        background-image: url('../Imagenes/GroupIcon.png');
+        background-image: url('../Imagenes/grupos2.png');
         background-size: contain;
         background-position: left;
         background-repeat: no-repeat;
@@ -1643,6 +1696,8 @@ html, body {
         text-decoration: none;
         color: #333;
         margin-right: calc(20em);
+        margin-top: 2em;
+        width: 7em;
 
     }
 
@@ -1655,12 +1710,18 @@ html, body {
 
     .espacio-crearPublicacion{
         margin-top: 2em;
-        height: calc(8em);
-        width: calc(48em);
         padding: 1em;
         border-radius: 0.5em;
         border: none;
         background-color: #cfd9dffb;
+        background-image: url('../Imagenes/sonrisa-mas.png');
+        background-size: 2em;
+        background-position-x: right;
+        background-position-y:bottom;
+        height: calc(8em);
+        width: calc(49em);
+        background-repeat: no-repeat;
+    
     }
 
     .boton-publicar{
@@ -1741,6 +1802,18 @@ html, body {
     .bodyVerGrupo{
         margin-bottom: calc(12em);
     }
+
+    .iconoGruposVer{
+        background-image: url('../Imagenes/grupos2.png');
+        background-size: 1.3em;
+        background-position: left;
+        background-repeat: no-repeat;
+        margin-bottom: .75em;
+        padding-left: 2em;
+        margin-top: 3em;
+        font-size: 1.2em;
+    }
+    
 
     /*MIS APUNTES*/
 
