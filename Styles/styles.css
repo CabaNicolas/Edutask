@@ -1154,14 +1154,16 @@ html, body {
         border-radius: 0.5em;
         border: none;
         background-color: #cfd9dffb;
-        background-image: url('../Imagenes/sonrisa-mas.png');
-        background-size: 2em;
-        background-position-x: right;
-        background-position-y:bottom;
+        background-image: url('../Imagenes/adjunto-archivo.png');
+        background-size: 1.5em;
+        background-position-x: calc(100% - 0.5em);
+        background-position-y:calc(100% - 0.5em);
+        height: calc(8em);
+        width: calc(49em);
         background-repeat: no-repeat;
+    
 
-    }
-
+}
 }
 
 /*MATERIAS*/
@@ -1499,11 +1501,14 @@ html, body {
         border-radius: 0.5em;
         border: none;
         background-color: #cfd9dffb;
-        background-image: url('../Imagenes/sonrisa-mas.png');
-        background-size: 2em;
-        background-position-x: right;
-        background-position-y:bottom;
+        background-image: url('../Imagenes/adjunto-archivo.png');
+        background-size: 1.5em;
+        background-position-x: calc(100% - 0.5em);
+        background-position-y:calc(100% - 0.5em);
+        height: calc(8em);
+        width: 100%;
         background-repeat: no-repeat;
+    
     }
 
      .input-crearGrupo {
@@ -1511,6 +1516,23 @@ html, body {
         border-radius: 0.5em;
         border: none;
         background-color: #cfd9dffb;
+        width: 100%;
+        height: 8%;
+    }
+
+    .input-crearGrupoS{
+        padding: 1em;
+        border-radius: 0.5em;
+        border: none;
+        background-color: #cfd9dffb;
+        width: 100%;
+        background-image: url('../Imagenes/busqueda.png');
+        background-size: 1.5em;
+        background-position-x: calc(100% - 0.5em);
+        background-position-y:calc(100% - 0.5em);
+        height: calc(8em);
+        width: 100%;
+        background-repeat: no-repeat;
     }
 
     .boton-crearGrupo {
@@ -1546,7 +1568,7 @@ html, body {
     .sugerencias{
         width: 10em;
         margin-left: 72%;
-        margin-top: -33%;
+        margin-top: -35%;
     }
 
     .sugerencias-palabra{
