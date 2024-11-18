@@ -57,15 +57,43 @@
                     <div class="contenedorDias" id="contenedorDias">
 
                         <script>
-                            const dias = ["Lunes", "Martes", "Miercoles", "Jueves", "Viernes", "Sabado", "Domingo"];
+                            const dias = ["Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado", "Domingo"];
                             const contenedorDias = document.getElementById('contenedorDias');
+                            
 
-                            for (let i = 0; i <= 30; i++) {
+                            for (let i = 0; i <= 29; i++) {
                                 const diaDiv = document.createElement('div');
                                 diaDiv.className = 'dia';
                                 diaDiv.innerHTML = `<span>${dias[i % dias.length]}</span><h5>${i + 1}</h5>`;
                                 contenedorDias.appendChild(diaDiv);
-                            }
+
+                                    const diaNombre = dias[i % dias.length];
+                                    const diaNumero = i + 1;
+
+                                    const esFinDeSemana = diaNombre === "Sábado" || diaNombre === "Domingo";
+                                    diaDiv.className = `dia${esFinDeSemana ? ' finDeSemana ' : ''}`;
+                                    diaDiv.innerHTML = `<span>${diaNombre}</span>
+                                    <h5>${diaNumero}</h5>`;
+
+                                    if (diaNumero === 1 || diaNumero === 29) {
+                                    diaDiv.classList.add('numeroDia'); 
+                                    diaDiv.innerHTML += `<img src="Imagenes/campanaRoja.png" alt="Icono" class="iconoCalendarioRojo">`;
+                                    }
+                                    if (diaNumero === 4 ||diaNumero === 10 ||diaNumero === 15 ||diaNumero === 20 ||diaNumero === 23 ) {
+                                    diaDiv.classList.add('numeroDia');
+                                    diaDiv.innerHTML += `<img src="Imagenes/lapizVerde.png" alt="Icono" class="iconoCalendarioVerde">`;
+                                    }
+                                    if (diaNumero === 19) {
+                                    diaDiv.classList.add('fechaActual'); 
+                
+                                    const diaNumeroElement = diaDiv.querySelector('h5');
+                                    diaNumeroElement.classList.add('sinPadding');
+                                
+                                }
+                               
+
+                                contenedorDias.appendChild(diaDiv);
+                                }
                         </script>
                     </div>
 
@@ -85,7 +113,7 @@
                                     <span for="tarea1">Semana 3: Terminar tp Final</span>
                                 </div>
                                 <div class="tareas">
-                                    <span for="tarea1">Semana 4: Repasar código para </span>
+                                    <span for="tarea1">Semana 4: Repasar código </span>
                                 
                                 </div>
                                 <div class="tareasRealizadas">
