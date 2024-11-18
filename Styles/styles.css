@@ -1350,7 +1350,7 @@ html, body {
         height: 4.5em;
         width: 4.5em;
         background-color: #fff;
-        padding: rem;
+       
         padding: 1rem;
         border-radius: .5rem;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -1358,6 +1358,9 @@ html, body {
         justify-content: center;
         flex-direction: column;
         
+    }
+    .numeroDeDia{
+        padding: 0;
     }
    
     .manejadorFecha{
@@ -1367,7 +1370,7 @@ html, body {
     .flechasCalendarioMateria{
         background-color:#dde0e4 ;
     }
-    .dia h5{
+    .dia{
         padding: 1em;
         text-align: center;
     }
@@ -1377,13 +1380,38 @@ html, body {
         padding: 1em 0em;
         text-align: center;
     }
-    
+    .iconoCalendarioVerde {
+        width: 1.5em; 
+        height: 1.5em;
+        margin-top: 0.3em; 
+        display: block;
+        
+    }
+    .iconoCalendarioRojo {
+        width: 1em; 
+        height: 1.6em;
+        margin-top: 0.3em; 
+        display: block;
+    }
+    .diaIcono{
+        padding: 0;
+        gap:0;
+    }
+    .fechaActual{
+        background-color: #2b276971;
+    }
+    .finDeSemana {
+    background-color: #99959567; 
+}
     .contenedorTodoVerMaterias{
         position: relative; 
         width: 24em; 
         height: auto; 
         margin-left: 25em;
         
+    }
+    .sinPadding{
+        padding: 0;
     }
     .anotadorImgMateria {
         width: 100%; 
