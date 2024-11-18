@@ -1136,7 +1136,8 @@ html, body {
         padding: 1em;
         border-radius: 0.5em;
         border: none;
-        background-color: #d3d3d3;
+        background-color: #f5f5f5;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     }
 
     .form-crearMateria button {
@@ -1500,7 +1501,7 @@ html, body {
         padding: 1em;
         border-radius: 0.5em;
         border: none;
-        background-color: #cfd9dffb;
+        background-color: #f5f5f5;
         background-image: url('../Imagenes/adjunto-archivo.png');
         background-size: 1.5em;
         background-position-x: calc(100% - 0.5em);
@@ -1508,6 +1509,7 @@ html, body {
         height: calc(8em);
         width: 100%;
         background-repeat: no-repeat;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     
     }
 
@@ -1515,16 +1517,18 @@ html, body {
         padding: 1em;
         border-radius: 0.5em;
         border: none;
-        background-color: #cfd9dffb;
+        background-color: #f5f5f5;
         width: 100%;
         height: 8%;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     }
 
     .input-crearGrupoS{
         padding: 1em;
         border-radius: 0.5em;
         border: none;
-        background-color: #cfd9dffb;
+        background-color: #f5f5f5;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         width: 100%;
         background-image: url('../Imagenes/busqueda.png');
         background-size: 1.5em;
