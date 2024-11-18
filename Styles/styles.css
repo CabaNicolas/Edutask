@@ -1111,7 +1111,6 @@ html, body {
  
 }
 
-
 /* CREAR MATERIAS */
 @media screen and (min-width: 1025px) {
     .subtitle-crearMateria {
@@ -1201,7 +1200,7 @@ html, body {
     }
 
     .segundoHeader button {
-        margin-right: 2em;
+        margin-right: 5.5em;
         border-radius: 0.5em;
         border: none;
         background-color: rgb(201, 200, 200);
@@ -1601,7 +1600,9 @@ html, body {
         color: #333;
      
     }
-
+    .botonCrearGrupo{
+        margin-bottom: -3em;
+    }
     .bodygrupos {
         background-color: #f5f5f5;
         display: flex;
@@ -1614,9 +1615,10 @@ html, body {
         grid-template-columns: repeat(2, 16em);
         gap: .3rem;
         align-content: space-around;
-        margin-right: 2em;
-        margin-top: 4em;
+        margin-right: 1em;
+        margin-top: 2em;
         margin-bottom: calc(8em);
+        margin-left: 0.8em;
     }
 
 
@@ -1680,9 +1682,9 @@ html, body {
         background-color: #f9f9f9;
         border-radius: .5rem;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        width: 35%;
+        width: 40%;
         height: 35%;
-        margin-top: calc(4em);
+        margin-top: calc(2em);
     }
 
     .tituloToDoGrupos{
