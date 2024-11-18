@@ -1110,7 +1110,7 @@ body {
         margin-top: 1em;
     }
 
-    .tarjeta a{
+    .tarjeta a {
         text-decoration: none;
         color: black;
     }
@@ -2165,5 +2165,11 @@ body {
         color: white;
         cursor: pointer;
         border-radius: 0.7em;
+    }
+
+    .evento-select {
+        padding: 0.5em;
+        border-radius: 0.6em;
+        background-color: #cfd9dffb;
     }
 }
