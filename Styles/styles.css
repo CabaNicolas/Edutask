@@ -541,7 +541,6 @@ html, body {
         align-items: center;
     }
 
-   
 
     .footer {
         display: flex;
@@ -1641,8 +1640,13 @@ html, body {
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         display: flex;
        flex-direction: column;
+       font-size: 1.1em;
     }
-
+    .grupo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     .grupo h2 {
         margin-bottom: 1rem;
     }
@@ -1665,7 +1669,7 @@ html, body {
     }
 
     .grupo button a:hover {
-        color: #333;
+        color: #fff;
     }
 
     .grupoHeader{
