@@ -541,7 +541,6 @@ html, body {
         align-items: center;
     }
 
-   
 
     .footer {
         display: flex;
@@ -877,7 +876,6 @@ html, body {
         position: relative;
         width: 100%;
         height: auto;
-        overflow: hidden;
         background-color: #f9f9f9;
         border-radius: .5rem;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -1111,7 +1109,6 @@ html, body {
  
 }
 
-
 /* CREAR MATERIAS */
 @media screen and (min-width: 1025px) {
     .subtitle-crearMateria {
@@ -1201,7 +1198,7 @@ html, body {
     }
 
     .segundoHeader button {
-        margin-right: 2em;
+        margin-right: 5.5em;
         border-radius: 0.5em;
         border: none;
         background-color: rgb(201, 200, 200);
@@ -1601,7 +1598,9 @@ html, body {
         color: #333;
      
     }
-
+    .botonCrearGrupo{
+        margin-bottom: -3em;
+    }
     .bodygrupos {
         background-color: #f5f5f5;
         display: flex;
@@ -1614,9 +1613,10 @@ html, body {
         grid-template-columns: repeat(2, 16em);
         gap: .3rem;
         align-content: space-around;
-        margin-right: 2em;
-        margin-top: 4em;
+        margin-right: 1em;
+        margin-top: 2em;
         margin-bottom: calc(8em);
+        margin-left: 0.8em;
     }
 
 
@@ -1639,8 +1639,13 @@ html, body {
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         display: flex;
        flex-direction: column;
+       font-size: 1.1em;
     }
-
+    .grupo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     .grupo h2 {
         margin-bottom: 1rem;
     }
@@ -1663,7 +1668,7 @@ html, body {
     }
 
     .grupo button a:hover {
-        color: #333;
+        color: #fff;
     }
 
     .grupoHeader{
@@ -1676,13 +1681,13 @@ html, body {
         justify-content: center;
         align-items: center;
         position: relative;
-        overflow: hidden;
         background-color: #f9f9f9;
         border-radius: .5rem;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        width: 35%;
-        height: 35%;
-        margin-top: calc(4em);
+        width: 40%;
+        height: 30%;
+        margin-top: calc(2em);
+        
     }
 
     .tituloToDoGrupos{
@@ -1691,18 +1696,22 @@ html, body {
       
       .anotacionesToDoGrupos {
         position: absolute;
-        top: 55%;
-        left: 55%;
+        top: 50%;
+        left: 50%;
         transform: translate(-50%, -50%);
         text-align: center;
         width: 80%;
         color: white;
+        max-height: 60%;
+        overflow: hidden;
+        
       }
 
       .listaTareasGrupos {
-        max-height: 100px; 
-        overflow-y: auto; 
+        max-height: 50%; 
+        overflow-y: auto;
     }
+
 
     .tituloCajaGrupo{
         display: flex;
