@@ -1336,12 +1336,11 @@ body {
     }
 
     .contenedorTodoYentregas {
-        display: flex;
-        /* grid-template-columns: repeat(auto-fill, minmax(20em, 1fr)); */
-        gap: 2.3rem;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(20em, 1fr));
+        gap: 1rem;
         margin-left: 1em;
         margin-top: -2em;
-        flex-direction: column;
     }
 
     .ToDoMaterias {
@@ -1825,6 +1824,10 @@ body {
     .todoGrupo{
         margin-top: 3.5em;
         margin-bottom: calc(2.9em);
+    }
+
+    .tituloEIconoToDoGrupo {
+        margin-top: 0;
     }
 
     .tituloToDoGrupos {
