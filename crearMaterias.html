@@ -29,7 +29,7 @@
         </header>
         <div class="col-2">
             <main class="main-content">
-
+                <a href="materias.html" class="flechaAtras">←</a>
                 <header class="headerHome-perfil">
                     <h1>¡Hola, Juan!</h1>
                     <div class="institutoFoto">
@@ -51,10 +51,22 @@
                         <label for="nombre">Nombre</label>
                         <input type="text" id="nombre" name="nombre" required>
 
+                        <label>Seleccione un ícono para la materia</label>
+                        <div class="image-container">
+                            <img src="Imagenes/baseDeDatos.png" alt="Base de datos">
+                            <img src="Imagenes/consulta.png" alt="Consulta">
+                            <img src="Imagenes/cuaderno.png" alt="Cuaderno">
+                            <img src="Imagenes/disenio.png" alt="Diseño">
+                            <img src="Imagenes/interfaz.png" alt="Interfaz">
+                            <img src="Imagenes/interfaz2.png" alt="Interfaz 2">
+                            <img src="Imagenes/programacion.png" alt="Programación">
+                            <img src="Imagenes/seguridad.png" alt="Seguridad">
+                        </div>
+
                         <label for="descripcion">Descripcion</label>
                         <input type="text" id="descripcion" class="descripcion" name="descripcion" style="height: 150px;">
 
-                        <button type="submit">Crear materia</button>
+                        <button type="submit">Crear materia</button><br><br><br><br><br>
                     </form>
                 </main>
 
@@ -72,6 +84,15 @@
             </footer>
         </div>
         <script src="src/main.js"></script>
+        <script>
+            let images = document.querySelectorAll('.image-container img');
+
+            images.forEach(image => {
+                image.addEventListener('click', () => {
+                    image.classList.toggle('selected');
+                });
+            });
+        </script>
     </body>
 
 </html>
