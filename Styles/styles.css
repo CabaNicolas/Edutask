@@ -1490,10 +1490,8 @@ body {
         padding: 1em 0em;
         text-align: center;
     }
-
-/*****/
     #popup {
-        display: none; /* Oculto inicialmente */
+        display: none;
         position: fixed;
         top: 50%;
         left: 50%;
@@ -1528,7 +1526,7 @@ body {
         margin-top: 0.3em;
         display: block;
     }
-/*****/
+
     .iconoCalendarioRojo {
         width: 1em;
         height: 1.6em;
