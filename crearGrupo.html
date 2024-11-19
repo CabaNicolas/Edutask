@@ -52,7 +52,19 @@
 
                     <form class="form-crearGrupo" action="home.html">
                         <label class="label-crearGrupo" for="nombre">Nombre</label>
-                        <input class="input-crearGrupo" type="text" id="nombre" name="nombre" required>
+                        <input class="input-crearGrupo" type="text" id="nombre" name="nombre" required><br><br>
+
+                        <label>Seleccione un ícono para la materia</label>
+                        <div class="image-container">
+                            <img src="Imagenes/baseDeDatos.png" alt="Base de datos">
+                            <img src="Imagenes/consulta.png" alt="Consulta">
+                            <img src="Imagenes/cuaderno.png" alt="Cuaderno">
+                            <img src="Imagenes/disenio.png" alt="Diseño">
+                            <img src="Imagenes/interfaz.png" alt="Interfaz">
+                            <img src="Imagenes/interfaz2.png" alt="Interfaz 2">
+                            <img src="Imagenes/programacion.png" alt="Programación">
+                            <img src="Imagenes/seguridad.png" alt="Seguridad">
+                        </div>
 
                         <label class="label-crearGrupo" for="descripcion">Descripcion</label>
                         <input class="input-crearGrupoo" type="text" name="descripcion" style="height: 150px;" required>
@@ -84,6 +96,15 @@
             </footer>
         </div>
         <script src="src/main.js"></script>
+        <script>
+            let images = document.querySelectorAll('.image-container img');
+
+            images.forEach(image => {
+                image.addEventListener('click', () => {
+                    image.classList.toggle('selected');
+                });
+            });
+        </script>
     </body>
 
 </html>

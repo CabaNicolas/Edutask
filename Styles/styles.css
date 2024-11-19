@@ -1233,8 +1233,19 @@ body {
         height: calc(8em);
         width: calc(49em);
         background-repeat: no-repeat;
+    }
 
+    .image-container img {
+        height: 3rem;
+        margin: .2rem;
+        cursor: pointer;
+        transition: filter 0.3s ease;
+    }
 
+    .selected {
+        border: 2px solid #007BFF;
+        background-color: rgba(0, 123, 255, 0.2);
+        filter: brightness(120%); 
     }
 }
 
