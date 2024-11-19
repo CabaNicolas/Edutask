@@ -11,6 +11,18 @@ body {
     /* Oculta el scroll horizontal */
 }
 
+.flechaAtras {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 0;
+}
+
+.flechaHome{
+    font-size: 1.5rem;
+    color:  #dde0e4;
+    margin-bottom: 0;
+}
+
 /*INICIAR SESION*/
 @media (min-width: 320px) and (max-width: 768px) {
     .bodyIniciarSesion {
@@ -825,7 +837,7 @@ body {
         direction: row;
         justify-content: space-between;
         align-items: center;
-
+        margin-top: 0;
     }
 
     .institutoFoto {
@@ -1120,11 +1132,12 @@ body {
         margin-right: .2rem;
     }
 
-    .botonEvento{
+    .botonEvento {
         margin: 0.5em 0 3em 3em;
-        
+
     }
-     #showPopup {
+
+    #showPopup {
         background-color: transparent;
         margin-top: 1em;
         margin-bottom: 3em;
@@ -1133,7 +1146,7 @@ body {
     #eventoPopup {
         display: none;
         position: fixed;
-        bottom:7em;
+        bottom: 7em;
         right: 5%;
         width: 20%;
         padding: 15px;
@@ -1149,22 +1162,27 @@ body {
         margin: 0 0 10px;
         font-size: 16px;
         color: #007bff;
-    
+
     }
+
     #eventoPopup {
         border: dashed #2b2769;
     }
+
     #eventoPopup .listaEvento {
         list-style: none;
         padding: 0;
         margin: 0;
     }
+
     #eventoPopup .itemsEvento {
         margin-bottom: 10px;
     }
+
     #eventoPopup .itemsEvento:last-child {
         margin-bottom: 0;
     }
+
     #closePopup {
         position: absolute;
         top: 10px;
@@ -1175,6 +1193,7 @@ body {
         cursor: pointer;
         color: #888;
     }
+
     #closePopup:hover {
         color: #333;
     }
@@ -1245,7 +1264,7 @@ body {
     .selected {
         border: 2px solid #007BFF;
         background-color: rgba(0, 123, 255, 0.2);
-        filter: brightness(120%); 
+        filter: brightness(120%);
     }
 }
 
@@ -1578,8 +1597,8 @@ body {
     .main-crearGrupo {
         flex: 1;
         padding: 1rem;
-        overflow-y: auto;
-        margin-left: calc(12%);
+        margin-top: 0;
+        margin-left: 19em;
     }
 
     .titulo-crearGrupo {
@@ -1588,10 +1607,6 @@ body {
         background-position: left;
         background-repeat: no-repeat;
         padding-left: 2em;
-    }
-
-    .main-crearGrupo header {
-        margin: 1em 0 3em 0em;
     }
 
 
@@ -1659,10 +1674,6 @@ body {
         background-color: #333;
         color: #fff;
         width: 50%;
-    }
-
-    .header-crearGrupo h1 {
-        margin-left: calc(13%);
     }
 
     .institutoFotoCrear {
@@ -1832,7 +1843,7 @@ body {
 
     }
 
-    .todoGrupo{
+    .todoGrupo {
         margin-top: 3.5em;
         margin-bottom: calc(2.9em);
     }
@@ -2010,6 +2021,11 @@ body {
         padding-left: 2em;
         margin-top: 3em;
         font-size: 1.2em;
+    }
+
+    .fecha-hora{
+        color: #cecccc;
+        margin-bottom: 0;
     }
 
 
