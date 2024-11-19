@@ -1952,7 +1952,7 @@ body {
     }
 
     .icono-grupo {
-        /*background-image: url('../Imagenes/grupo.png');*/
+        background-image: url('../Imagenes/grupo.png');
         background-size: contain;
         background-position: 100%;
         width: calc(10em);
@@ -1962,7 +1962,7 @@ body {
         padding-left: 0.5em;
         margin-top: 3em;
         font-size: 1.2em;
-        margin-right: calc(2em);
+        margin-right: calc(-11em);
     }
 
     .icono-userGrupo {
