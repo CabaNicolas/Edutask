@@ -86,12 +86,14 @@
                                     }
                                     if (diaNumero === 19) {
                                     diaDiv.classList.add('fechaActual'); 
-                
+                                        
                                     const diaNumeroElement = diaDiv.querySelector('h5');
                                     diaNumeroElement.classList.add('sinPadding');
                                 
-                                }
-                               
+                                    }
+                                    if (diaNumero === 15) {
+                                        diaDiv.id = 'diaEjemplo';
+                                    }
 
                                 contenedorDias.appendChild(diaDiv);
                                 }
@@ -141,6 +143,7 @@
 </body>
 
 <script src="src/main.js"></script>
+<script src="src/ejemploClendario.js"></script>
 
 
 </html>
