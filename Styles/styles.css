@@ -1278,11 +1278,12 @@ body {
     }
 
     .contenedorTodoYentregas {
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(20em, 1fr));
-        gap: 1rem;
+        display: flex;
+        /* grid-template-columns: repeat(auto-fill, minmax(20em, 1fr)); */
+        gap: 2.3rem;
         margin-left: 1em;
         margin-top: -2em;
+        flex-direction: column;
     }
 
     .ToDoMaterias {
@@ -1685,7 +1686,7 @@ body {
         align-content: space-around;
         margin-right: 1em;
         margin-top: 2em;
-        margin-bottom: calc(8em);
+        /* margin-bottom: calc(8em); */
         margin-left: 0.8em;
     }
 
@@ -1761,6 +1762,11 @@ body {
         height: 30%;
         margin-top: calc(2em);
 
+    }
+
+    .todoGrupo{
+        margin-top: 3.5em;
+        margin-bottom: calc(2.9em);
     }
 
     .tituloToDoGrupos {
